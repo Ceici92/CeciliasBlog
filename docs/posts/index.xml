@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cecilia&#39;s Blog</title>
-    <link>https://Ceici92.github.io/HugoBlog3/</link>
-    <description>Recent content on Cecilia&#39;s Blog</description>
+    <title>Posts on Cecilia&#39;s Blog</title>
+    <link>https://Ceici92.github.io/HugoBlog3/posts/</link>
+    <description>Recent content in Posts on Cecilia&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2020 15:53:01 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Sep 2020 15:53:01 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>https://Ceici92.github.io/HugoBlog3/posts/my-first-post/</link>
