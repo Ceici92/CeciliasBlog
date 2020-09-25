@@ -22,6 +22,9 @@ the application suggests us to desactivate it temporaly.
 
 ![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Post1Insta.JPG "Image 1"){:width="100%"}
 
+![Alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/static/img/post1/Post1Insta.JPG "Image 1"){:width="100%"}
+
+
 
 
 
