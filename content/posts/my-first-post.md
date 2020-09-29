@@ -17,8 +17,8 @@ Hello everyone !
 ### Instagram
 
 Instagram uses the technique of Interface Interference to prevent us from deleting our account : another possibility is suggested to the user. 
-Indeed, when we go to the parameters, at the place we would suppose to find the button to delete our account,
-the application suggests us to desactivate it temporaly. 
+Indeed, when we go to the parameters, at the place we would supposed to find the button to delete our account,
+the application suggests us to deactivate it temporarily. 
 
 ![alt Text](https://user-images.githubusercontent.com/71452847/94283460-4e574f00-ff51-11ea-98ec-89fb033f3eac.JPG "Image 1")
 
@@ -31,6 +31,4 @@ the application suggests us to desactivate it temporaly.
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
-
-
 
