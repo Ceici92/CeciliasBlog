@@ -6,7 +6,20 @@
     <description>Recent content on Cecilia&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 14:16:03 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2020 16:10:15 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 3</title>
+      <link>https://Ceici92.github.io/HugoBlog3/posts/lab3/</link>
+      <pubDate>Mon, 05 Oct 2020 16:10:15 +0200</pubDate>
+      
+      <guid>https://Ceici92.github.io/HugoBlog3/posts/lab3/</guid>
+      <description>Hello everyone !
+Today I buil my Roll a Ball game on my Android phtone.
+Lab 3 Part 1 : Set up To build on Android I had to start with installing the Android Build Support :
+Then, I had to define the new build settings, starting with the player settings : the orientation, the graphic APIs, the identification and the publishing key.
+After setting up my unity project, I had to set up my phone.</description>
+    </item>
+    
     <item>
       <title>Lab 2</title>
       <link>https://Ceici92.github.io/HugoBlog3/posts/lab2/</link>
