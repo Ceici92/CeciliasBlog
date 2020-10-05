@@ -1,5 +1,5 @@
 ---
-title: "Post 2: Lab 1"
+title: "Lab 1"
 date: 2020-09-29T22:35:13+02:00
 draft: false
 ---
@@ -8,7 +8,7 @@ Hello everyone !
 
 # Lab 1
 
-## Lab a: Setup Blog
+## Part a: Setup Blog
 
 It is my first blog, and my first time using a static site generator. 
 For simplicity, I chose to use the one advised by my teachers : Hugo. 
@@ -50,3 +50,31 @@ I used the adequate Markdown syntax, and the folder organisation recommended, bu
 So, I bypassed the problem, by putting my images in GitHub "issues", and using the link given to show my images. And it works !
 
 [comment]: <> (![alt Text](https://user-images.githubusercontent.com/71452847/94618476-85a86180-02ab-11eb-9a2f-bac6a2e711d0.JPG "Execute"))
+
+
+## Part b: Setup Unity
+
+I already had Unity, because I used it last year for a project. However I did not have the last version so I uploaded Unity 2019.4 on my Unity Hub. (I also installed Unity 2020.1 because we need it for Lea's class)
+
+![alt Text](https://user-images.githubusercontent.com/71452847/95072832-1d72d900-070c-11eb-8b71-978f17171248.JPG "Installing the new versions")
+
+I created a new Unity 3D project.
+
+![alt Text](https://user-images.githubusercontent.com/71452847/95072753-fa482980-070b-11eb-9dee-05c37cc2484c.JPG "New 3D Project")
+
+I already knew the basics : create an object, change its size, its location, the parent-child relation, etc... Therefore, I directly started by playing around with an exemple.
+I went on the unity learn page, and I chose the FPS microgame :
+
+![alt Text](https://user-images.githubusercontent.com/71452847/95072755-fae0c000-070b-11eb-95f2-53562e6afca3.JPG "FPS Microgame")
+
+I started playing a little to discover it :
+
+![alt Text](https://user-images.githubusercontent.com/71452847/95072758-fb795680-070b-11eb-8dad-ff97d06654a8.png "Playy")
+
+I looked into the prefabs of the game, and I added a new room.
+
+![alt Text](https://user-images.githubusercontent.com/71452847/95072759-fb795680-070b-11eb-8d19-216f305b1d84.png "Prefabs")
+
+![alt Text](https://user-images.githubusercontent.com/71452847/95072750-f9af9300-070b-11eb-9782-ad07664fffb8.png "Room")
+
+During the next weeks, if I have the time before the evaluation, I will add some IP Paris flavor to the game.

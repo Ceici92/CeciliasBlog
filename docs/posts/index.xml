@@ -8,13 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Sep 2020 22:35:13 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Post 2: Lab 1</title>
+      <title>Lab 1</title>
       <link>https://Ceici92.github.io/HugoBlog3/posts/post2/</link>
       <pubDate>Tue, 29 Sep 2020 22:35:13 +0200</pubDate>
       
       <guid>https://Ceici92.github.io/HugoBlog3/posts/post2/</guid>
       <description>Hello everyone !
-Lab 1 Lab a: Setup Blog It is my first blog, and my first time using a static site generator. For simplicity, I chose to use the one advised by my teachers : Hugo.
+Lab 1 Part a: Setup Blog It is my first blog, and my first time using a static site generator. For simplicity, I chose to use the one advised by my teachers : Hugo.
 I started following the slides from this lab, and I created this site.
 Then I added the gitignore (just an empty .txt file, because first I used an example from an Hugo site but it gave me a hard time during deployment).</description>
     </item>
