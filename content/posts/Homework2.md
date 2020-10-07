@@ -24,5 +24,5 @@ At the end, the author talks about an ability that our computers still do not ha
 
 However, the 3D printers are still not fast enough to create a chair in front of the user as fast as he imagines it, and there is still no democratised haptic feedback in virtual reality that could give the player the sensation to sit on a real chair for example.
 
-On another part, Evan Sutherland dreams of the control of computer through vision. Current technologies enable us to identify where the user is looking, it is for example used for user detection to unblock a computer, or to identify a user. However, even if some companies took the risk to use the eyes’ glance as “mouse”, it is uncomfortable for the player. Thus, even if current technologies enable it, it may be let aside in our future.
+On another part, Evan Sutherland dreams of the control of computer through vision. Current technologies enable us to identify where the user is looking, it is for example used for user detection to unblock a computer, or to identify a user. However, even if some companies took the risk to use the eyes' glance as "mouse", it is uncomfortable for the player. Thus, even if current technologies enable it, it may be let aside in our future.
 
