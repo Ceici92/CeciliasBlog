@@ -1,6 +1,6 @@
 ---
 title: "Lecture 1 : Homework"
-date: 2020-09-20T18:35:16+02:00
+date: 2020-09-30T18:35:16+02:00
 draft: false
 ---
 
@@ -11,12 +11,14 @@ After creating my blog, it is time to write my first Human Computer Interaction'
 ## Affordances
 
 As I saw in class, an affordance is a property of an artefact which indicates its usage. 
+
 To illustrate this concept, I chose to talk about my vacuum cleaner. Its handle is well done. Automatically through its form, we know how to use the vacuum.
 
 ![alt Text](https://user-images.githubusercontent.com/71452847/95369330-98d4b600-08d7-11eb-8130-beee3c0bf246.jpg "Vacuum")
 
 
 On the contrary, a bad affordance leads us to an incorrect usage of an object. 
+
 For example, the hotplate of my apartment becomes red when its temperature is increasing, and not just because it is on. As a result, when I start cooking it becomes red, but during the cooking it is black again. 
 Therefore, the first few times I forgot to turn it off, because instinctively if I did not see red I thought it was not hot, and thus turned off.
 

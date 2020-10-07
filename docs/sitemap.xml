@@ -4,20 +4,27 @@
   
   <url>
     <loc>https://Ceici92.github.io/HugoBlog3/</loc>
-    <lastmod>2020-10-05T16:10:15+02:00</lastmod>
+    <lastmod>2020-10-06T19:55:25+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://Ceici92.github.io/HugoBlog3/posts/lab3/</loc>
-    <lastmod>2020-10-05T16:10:15+02:00</lastmod>
+    <loc>https://Ceici92.github.io/HugoBlog3/posts/homework2/</loc>
+    <lastmod>2020-10-06T19:55:25+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://Ceici92.github.io/HugoBlog3/posts/</loc>
+    <lastmod>2020-10-06T19:55:25+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://Ceici92.github.io/HugoBlog3/posts/lab3/</loc>
     <lastmod>2020-10-05T16:10:15+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -31,22 +38,15 @@
   </url>
   
   <url>
+    <loc>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</loc>
+    <lastmod>2020-09-30T18:35:16+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://Ceici92.github.io/HugoBlog3/posts/post2/</loc>
     <lastmod>2020-09-29T22:35:13+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://Ceici92.github.io/HugoBlog3/posts/my-first-post/</loc>
-    <lastmod>2020-09-25T15:53:01+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</loc>
-    <lastmod>2020-09-20T18:35:16+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

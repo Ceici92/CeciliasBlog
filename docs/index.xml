@@ -6,7 +6,19 @@
     <description>Recent content on Cecilia&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 16:10:15 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2020 19:55:25 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homework 2</title>
+      <link>https://Ceici92.github.io/HugoBlog3/posts/homework2/</link>
+      <pubDate>Tue, 06 Oct 2020 19:55:25 +0200</pubDate>
+      
+      <guid>https://Ceici92.github.io/HugoBlog3/posts/homework2/</guid>
+      <description>Hello everyone !
+Lecture 2 : Homework The Ultimate Display form Evan E. Sutherland In this paper, Evan Sutherland points out the interesting 1960s&#39; displays, which will be developed in the future. On top of that, he even predicts new displays that we use today.
+First, he reminds us about the importance of a display: understand digital computers as we understand the laws in a physical world.
+Then, from the displays used in his area, he guesses the ones that will be mainly used in the future : the keyboards, the &amp;ldquo;area filling&amp;rdquo; ability, the stylus and its drag and drop ability, the knobs and the joysticks.</description>
+    </item>
+    
     <item>
       <title>Lab 3</title>
       <link>https://Ceici92.github.io/HugoBlog3/posts/lab3/</link>
@@ -35,6 +47,19 @@ I changed the Build Settings of my project. I had no errors, because I already h
     </item>
     
     <item>
+      <title>Lecture 1 : Homework</title>
+      <link>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</link>
+      <pubDate>Wed, 30 Sep 2020 18:35:16 +0200</pubDate>
+      
+      <guid>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</guid>
+      <description>Hello everyone !
+After creating my blog, it is time to write my first Human Computer Interaction&amp;rsquo;s assignment.
+Affordances As I saw in class, an affordance is a property of an artefact which indicates its usage.
+To illustrate this concept, I chose to talk about my vacuum cleaner. Its handle is well done. Automatically through its form, we know how to use the vacuum.
+On the contrary, a bad affordance leads us to an incorrect usage of an object.</description>
+    </item>
+    
+    <item>
       <title>Lab 1</title>
       <link>https://Ceici92.github.io/HugoBlog3/posts/post2/</link>
       <pubDate>Tue, 29 Sep 2020 22:35:13 +0200</pubDate>
@@ -44,29 +69,6 @@ I changed the Build Settings of my project. I had no errors, because I already h
 Lab 1 Part a: Setup Blog It is my first blog, and my first time using a static site generator. For simplicity, I chose to use the one advised by my teachers : Hugo.
 I started following the slides from this lab, and I created this site.
 Then I added the gitignore (just an empty .txt file, because first I used an example from an Hugo site but it gave me a hard time during deployment).</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/my-first-post/</link>
-      <pubDate>Fri, 25 Sep 2020 15:53:01 +0200</pubDate>
-      
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/my-first-post/</guid>
-      <description>Hello everyone !
-Lecture 1 Affordances Gestalt Laws Dark Design Patterns Instagram Instagram uses the technique of Interface Interference to prevent us from deleting our account : another possibility is suggested to the user. Indeed, when we go to the parameters, at the place we would supposed to find the button to delete our account, the application suggests us to deactivate it temporarily.
-   Tables Are Cool     col 3 is right-aligned $1600   col 2 is centered $12   zebra stripes are neat $1    </description>
-    </item>
-    
-    <item>
-      <title>Lecture 1 : Homework</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</link>
-      <pubDate>Sun, 20 Sep 2020 18:35:16 +0200</pubDate>
-      
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</guid>
-      <description>Hello everyone !
-After creating my blog, it is time to write my first Human Computer Interaction&amp;rsquo;s assignment.
-Affordances As I saw in class, an affordance is a property of an artefact which indicates its usage. To illustrate this concept, I chose to talk about my vacuum cleaner. Its handle is well done. Automatically through its form, we know how to use the vacuum.
-On the contrary, a bad affordance leads us to an incorrect usage of an object.</description>
     </item>
     
   </channel>
