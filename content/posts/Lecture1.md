@@ -53,7 +53,7 @@ To delete our account, we have to go to the Instagram website (not on the applic
 Amazon Prime Video uses the Sneaking technique, to make us buy a movie or episodes of a tv-show. For example, the site presents us the TV Show "Watchmen" as one of the programs available on the site. When we click on it, we even have the same presentation as an available show.
 However, when we click on the "Plus d'options d'achats" which really looks like "Ajouter aux favoris", we finally see that we must pay to watch it.
 
-![alt Text](https://user-images.githubusercontent.com/71452847/95369327-97a38900-08d7-11eb-9141-b19f09db6b32.png "Annonces")
+![alt Text](https://user-images.githubusercontent.com/71452847/95379546-ce809b80-08e5-11eb-8367-6e08062a0852.png "Annonces")
 *Sneaky proposition*
 
 ![alt Text](https://user-images.githubusercontent.com/71452847/95369339-9a05e300-08d7-11eb-8546-6995c86f73f8.png "Watchmen")
