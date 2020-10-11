@@ -1,5 +1,5 @@
 ---
-title: "Lab1"
+title: "Lab 1"
 date: 2020-09-29T15:38:43+02:00
 draft: false
 ---
@@ -8,7 +8,7 @@ Hello everyone !
 
 During my first lab of HCI, I learned how to make a blog with the static site generator Hugo, how to deploy it with GitHub, and how to setup a Unity project. 
 
-# My Blog 
+# Part 1 : Setup my Blog 
 
 ## First steps with Hugo
 
@@ -99,7 +99,7 @@ It worked ! The file could now be previsualised in git, it means that it can now
 
 
 
-# Setup Unity
+# Part 2 : Setup Unity
 
 I already had Unity, because I used it last year for a project. However I did not have the last version so I uploaded Unity 2019.4 on my Unity Hub. (I also installed Unity 2020.1 because we need it for Lea's class)
 
