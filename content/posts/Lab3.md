@@ -24,12 +24,12 @@ Then, I had to define the new build settings, starting with the player settings 
 
 After setting up my unity project, I had to set up my phone. I activated the developper mode, and enabled the debugging mode. 
 
-[comment]: <> (![alt Text]( "Phone settings"))
+[comment]: <> (![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/120959576_3379234365523327_2511240152500799826_n.jpg?raw=true "Phone settings"))
 
 I connected my phone to my computer, and selected it in the building settings.
 At this part I was able to start the game on my phone, but I still had to change the game play. 
 
-[comment]: <> (![alt Text]( "Phone screan"))
+[comment]: <> (![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/121064455_633550003949458_2545566836504823763_n.jpg?raw=true "Phone screan"))
 
 
 ## Part 2 : Implementation of the mobile application
@@ -45,7 +45,7 @@ Then code the Titlig script for the ground :
 
 I build again, and my ball literally ended out of my arena. So I lowered the speed of my player, and augmented its gravity. Still a problem remained :
 
-![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3.gif?raw=true "Gif")
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/Lab3.gif?raw=true "Gif")
 
 The axis of the game were not good. When I tried to go up it went right, etc..
 I tried rotating the player, the ground, but it did not work. The gyroscope was as if I was in the portrait mode.
