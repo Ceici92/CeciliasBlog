@@ -48,4 +48,6 @@ I build again, and my ball literally ended out of my arena. So I lowered the spe
 The axis of the game were not good. When I tried to go up it went right, etc..
 I tried rotating the player, the ground, but it did not work. The gyroscope was as if I was in the portrait mode.
 
-[![alt Text](https://user-images.githubusercontent.com/71452847/95677903-3a565300-0bc9-11eb-86c1-480a1fae631c.JPG "Screan phone still bug")](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/video-1602087118.mp4?raw=true)
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3.gif?raw=true "Gif")
+
+[comment]: <> ([![alt Text](https://user-images.githubusercontent.com/71452847/95677903-3a565300-0bc9-11eb-86c1-480a1fae631c.JPG "Screan phone still bug")](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/video-1602087118.mp4?raw=true))
