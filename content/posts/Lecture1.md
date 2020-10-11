@@ -22,10 +22,10 @@ On the contrary, a bad affordance leads us to an incorrect usage of an object.
 For example, the hotplate of my apartment becomes red when its temperature is increasing, and not just because it is on. As a result, when I start cooking it becomes red, but during the cooking it is black again. 
 Therefore, the first few times I forgot to turn it off, because instinctively if I did not see red I thought it was not hot, and thus turned off.
 
-![alt Text](https://user-images.githubusercontent.com/71452847/95375559-17cdec80-08e0-11eb-81e3-4fbdb657d08a.jpg "Hotplate red")
+![alt Text](https://user-images.githubusercontent.com/71452847/95689949-b7f38080-0c14-11eb-9c62-0016abd72e2c.jpg "Hotplate red")
 *When I activate the hotplate*
 
-![alt Text](https://user-images.githubusercontent.com/71452847/95376115-e144a180-08e0-11eb-95b7-083e495e5692.jpg "Hotplate stil turned on")
+![alt Text](https://user-images.githubusercontent.com/71452847/95689951-b7f38080-0c14-11eb-9656-08854e2b516d.jpg "Hotplate stil turned on")
 *When the temperature does not increase but the hotplate is still on*
 
 ## Gestalt Laws
