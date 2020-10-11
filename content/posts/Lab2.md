@@ -6,7 +6,6 @@ draft: false
 
 Hello everyone !
 
-# Lab 2
 
 Today, I built the 3D Unity Application : Roll A Ball. I followed the Unity learn steps to create it.
 I started by creating the ground :
@@ -44,7 +43,7 @@ I added the Player Input to the player and the input actions, in order to use th
 ![alt Text](https://user-images.githubusercontent.com/71452847/95080707-cb848000-0718-11eb-91a0-65558b2b4372.png "Player Input")
 
 
-I already had Visual Studio opened by Unity by default, because we had to do it for Lea’s course. 
+I already had Visual Studio opened by Unity by default, because we had to do it for Lea's course. 
 To really understand the PlayerController Script, I followed the unity learn videos :
  
 ![alt Text](https://user-images.githubusercontent.com/71452847/95080721-d0493400-0718-11eb-93e9-d44f6e5655de.png "Player Controller")
@@ -54,8 +53,6 @@ To really understand the PlayerController Script, I followed the unity learn vid
 
 I wrote the Camera Controller Script, with the player associated :
  
-![alt Text](https://user-images.githubusercontent.com/71452847/95080738-d7704200-0718-11eb-9f7b-b599515776bf.png "Camera Controller")
-
 ![alt Text](https://user-images.githubusercontent.com/71452847/95080748-da6b3280-0718-11eb-86f5-280bf66f7447.png "Camera Controller")
 
 
@@ -86,15 +83,15 @@ Finally, I added the "Count" and "Win" text, a Text Mesh Pro object :
 ![alt Text](https://user-images.githubusercontent.com/71452847/95080820-f53da700-0718-11eb-854e-9962905e3490.png "Texts")
 
 
-My game was now ready to be build. I built it with the settings guiven, and Ta Da ! My first Roll A Ball game works on my computer :
+My game was now ready to be build. I built it with the settings given, and Ta Da ! My first Roll A Ball game works on my computer :
 
-[comment]: <> (Video)
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab2/RollABallComputer.gif?raw=true "Video")
 
 
 
 ## Bonus
 
-I moved the pickups to now form IP Paris instead of 2020 :
+[comment]: <> I moved the pickups to now form IP Paris instead of 2020 :
 
 [comment]: <> (IP Paris)
 
