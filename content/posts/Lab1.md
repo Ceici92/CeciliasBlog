@@ -93,9 +93,9 @@ Finally I decided to make it a gif, with Photoshop :
 
 ![alt Text](https://user-images.githubusercontent.com/71452847/95682577-31c04580-0be6-11eb-9e98-034b5e756476.png "Photoshop")
 
-It worked ! The file could now be previsualised in git, it means that it can now be seen directly on my page :
+It worked ! The file could now be previsualised in git, it means that it can now be seen directly on my page, as you can see here :
 
-![alt Text]( "Video")
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/Lab3.gif?raw=true "Video")
 
 
 
@@ -116,7 +116,7 @@ I went on the unity learn page, and I chose the FPS microgame :
 
 I started playing a little to discover it :
 
-![alt Text](https://user-images.githubusercontent.com/71452847/95072758-fb795680-070b-11eb-8dad-ff97d06654a8.png "Playy")
+![alt Text](https://user-images.githubusercontent.com/71452847/95072758-fb795680-070b-11eb-8dad-ff97d06654a8.png "Play")
 
 I looked into the prefabs of the game, and I added a new room.
 
