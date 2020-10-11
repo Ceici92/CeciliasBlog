@@ -15,7 +15,7 @@ Today I buil my Roll a Ball game on my Android phtone.
 
 To build on Android I had to start with installing the Android Build Support :
 
-[comment]: <> (![alt Text]( "SDK"))
+[comment]: <> (![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/Capture.JPG?raw=true "SDK"))
 
 Then, I had to define the new build settings, starting with the player settings : the orientation, the graphic APIs, the identification and the publishing key.
 
