@@ -6,23 +6,11 @@
     <description>Recent content on Cecilia&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2020 19:55:25 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Homework 2</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/homework2/</link>
-      <pubDate>Tue, 06 Oct 2020 19:55:25 +0200</pubDate>
-      
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/homework2/</guid>
-      <description>Hello everyone !
-Lecture 2 : Homework The Ultimate Display form Evan E. Sutherland In this paper, Evan Sutherland points out the interesting 1960s&#39; displays, which will be developed in the future. On top of that, he even predicts new displays that we use today.
-First, he reminds us about the importance of a display: understand digital computers as we understand the laws in a physical world.
-Then, from the displays used in his area, he guesses the ones that will be mainly used in the future : the keyboards, the &amp;ldquo;area filling&amp;rdquo; ability, the stylus and its drag and drop ability, the knobs and the joysticks.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 06 Oct 2020 16:10:15 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab 3</title>
       <link>https://Ceici92.github.io/HugoBlog3/posts/lab3/</link>
-      <pubDate>Mon, 05 Oct 2020 16:10:15 +0200</pubDate>
+      <pubDate>Tue, 06 Oct 2020 16:10:15 +0200</pubDate>
       
       <guid>https://Ceici92.github.io/HugoBlog3/posts/lab3/</guid>
       <description>Hello everyone !
@@ -47,16 +35,15 @@ I changed the Build Settings of my project. I had no errors, because I already h
     </item>
     
     <item>
-      <title>Lecture 1 : Homework</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</link>
-      <pubDate>Wed, 30 Sep 2020 18:35:16 +0200</pubDate>
+      <title>Lecture 2</title>
+      <link>https://Ceici92.github.io/HugoBlog3/posts/homework2/</link>
+      <pubDate>Sun, 04 Oct 2020 19:55:25 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</guid>
+      <guid>https://Ceici92.github.io/HugoBlog3/posts/homework2/</guid>
       <description>Hello everyone !
-After creating my blog, it is time to write my first Human Computer Interaction&amp;rsquo;s assignment.
-Affordances As I saw in class, an affordance is a property of an artefact which indicates its usage.
-To illustrate this concept, I chose to talk about my vacuum cleaner. Its handle is well done. Automatically through its form, we know how to use the vacuum.
-On the contrary, a bad affordance leads us to an incorrect usage of an object.</description>
+Today, I learned more about the researches around Human Computer Interaction, here is a little mark of what I learned.
+HCI Researcher : Meredith Ringel Morris I chose to talk about the researcher Meredith Ringel Morris, because I fonud her fields of work interesting : Interaction accessibility and Mixed Reality.
+She founded the lab&amp;rsquo;s Ability Research Group, that conduct research avout the tech-challenges to create more inclusive tehcnologies.</description>
     </item>
     
     <item>
@@ -68,6 +55,30 @@ On the contrary, a bad affordance leads us to an incorrect usage of an object.</
       <description>Hello everyone !
 During my first lab of HCI, I learned how to make a blog with the static site generator Hugo, how to deploy it with GitHub, and how to setup a Unity project.
 Part 1 : Setup my Blog First steps with Hugo It is my first blog, and my first time using a static site generator. For simplicity, I chose to use the one advised by my teachers : Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 1 : Homework</title>
+      <link>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</link>
+      <pubDate>Sun, 27 Sep 2020 18:35:16 +0200</pubDate>
+      
+      <guid>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</guid>
+      <description>Hello everyone !
+After creating my blog, it is time to write my first Human Computer Interaction&amp;rsquo;s assignment.
+Affordances As I saw in class, an affordance is a property of an artefact which indicates its usage.
+To illustrate this concept, I chose to talk about my vacuum cleaner. Its handle is well done. Automatically through its form, we know how to use the vacuum.
+On the contrary, a bad affordance leads us to an incorrect usage of an object.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://Ceici92.github.io/HugoBlog3/posts/my-first-post/</link>
+      <pubDate>Fri, 25 Sep 2020 15:53:01 +0200</pubDate>
+      
+      <guid>https://Ceici92.github.io/HugoBlog3/posts/my-first-post/</guid>
+      <description>Hello everyone !
+I created this blog for my Human Computer Interaction class. You will find here my lectures&#39; homework and the description of my laboratories.
+Have fun !</description>
     </item>
     
   </channel>

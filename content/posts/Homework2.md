@@ -1,14 +1,30 @@
 ---
-title: "Homework 2"
-date: 2020-10-06T19:55:25+02:00
+title: "Lecture 2"
+date: 2020-10-04T19:55:25+02:00
 draft: false
 ---
 
 Hello everyone !
 
-# Lecture 2 : Homework
+Today, I learned more about the researches around Human Computer Interaction, here is a little mark of what I learned.
 
-## The Ultimate Display form Evan E. Sutherland
+# HCI Researcher : Meredith Ringel Morris
+
+I chose to talk about the researcher Meredith Ringel Morris, because I fonud her fields of work interesting : Interaction accessibility and Mixed Reality.
+
+She founded the lab's Ability Research Group, that conduct research avout the tech-challenges to create more inclusive tehcnologies. 
+She is known as the founder of collaborative eb search, with her system SearchTogether.
+Furthermore, she is known for her contributions to surface computing and gesture design, her papers introduced cooperative gestures and identity-aware widgets. 
+More recently, she became a leader in accessibility, particularly in the field of social media, and accessible communication technologies.
+
+
+Besides, she served as the general chair for ACM's CSCW conference, and as Technical Program chair of several conferences.
+She wrote more than 100 peer-reviewed research articles, invented 20 U/S. patents, and influenced many of Microsoft's products.
+
+Mrs. Morris recently wrote in collaboration the paper : Sense and Accessibility: Understanding People with Physical Disabilities' Experiences with Sensing Systems.
+
+
+# The Ultimate Display form Evan E. Sutherland
 
 In this paper, Evan Sutherland points out the interesting 1960s' displays, which will be developed in the future. On top of that, he even predicts new displays that we use today. 
 
@@ -28,7 +44,7 @@ On another part, Evan Sutherland dreams of the control of computer through visio
 
 
 
-## Input Devices and Interaction Paradigms
+# Input Devices and Interaction Paradigms
 
 The Ring by Logdbar is a wearable input device aim to control payment, text, or any other parameter of another device, through hand gestures. The product was showed for the first time at the Consumer Electronics Show in Las Vegas in 2015.
 A button in the side of the ring enables the user to signal the harware that it will make a geture, and with an application on your phone you can configure the gestures you want to do. 
