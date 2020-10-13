@@ -36,26 +36,14 @@ I changed the Build Settings of my project. I had no errors, because I already h
     
     <item>
       <title>Lecture 2</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/homework2/</link>
-      <pubDate>Sun, 04 Oct 2020 19:55:25 +0200</pubDate>
-      
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/homework2/</guid>
-      <description>Hello everyone !
-Today, I learned more about the researches around Human Computer Interaction, here is a little mark of what I learned.
-HCI Researcher : Meredith Ringel Morris I chose to talk about the researcher Meredith Ringel Morris, because I found her fields of work interesting : Interaction accessibility and Mixed Reality.
-She founded the lab&amp;rsquo;s Ability Research Group, that conduct research about the tech-challenges to create more inclusive technologies.</description>
-    </item>
-    
-    <item>
-      <title>Lecture 2</title>
       <link>https://Ceici92.github.io/HugoBlog3/posts/lecture2/</link>
       <pubDate>Sun, 04 Oct 2020 19:55:25 +0200</pubDate>
       
       <guid>https://Ceici92.github.io/HugoBlog3/posts/lecture2/</guid>
       <description>Hello everyone !
 Today, I learned more about the researches around Human Computer Interaction, here is a little mark of what I learned.
-HCI Researcher : Meredith Ringel Morris I chose to talk about the researcher Meredith Ringel Morris, because I fonud her fields of work interesting : Interaction accessibility and Mixed Reality.
-She founded the lab&amp;rsquo;s Ability Research Group, that conduct research avout the tech-challenges to create more inclusive tehcnologies.</description>
+HCI Researcher : Meredith Ringel Morris I chose to talk about the researcher Meredith Ringel Morris, because I found her fields of work interesting : Interaction accessibility and Mixed Reality.
+She founded the lab&amp;rsquo;s Ability Research Group, that conduct research about the tech-challenges to create more inclusive technologies.</description>
     </item>
     
     <item>
@@ -70,7 +58,7 @@ Part 1 : Setup my Blog First steps with Hugo It is my first blog, and my first t
     </item>
     
     <item>
-      <title>Lecture 1 : Homework</title>
+      <title>Lecture 1</title>
       <link>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</link>
       <pubDate>Sun, 27 Sep 2020 18:35:16 +0200</pubDate>
       

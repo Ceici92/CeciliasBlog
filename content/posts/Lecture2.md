@@ -10,9 +10,9 @@ Today, I learned more about the researches around Human Computer Interaction, he
 
 # HCI Researcher : Meredith Ringel Morris
 
-I chose to talk about the researcher Meredith Ringel Morris, because I fonud her fields of work interesting : Interaction accessibility and Mixed Reality.
+I chose to talk about the researcher Meredith Ringel Morris, because I found her fields of work interesting : Interaction accessibility and Mixed Reality.
 
-She founded the lab's Ability Research Group, that conduct research avout the tech-challenges to create more inclusive tehcnologies. 
+She founded the lab's Ability Research Group, that conduct research about the tech-challenges to create more inclusive technologies. 
 She is known as the founder of collaborative eb search, with her system SearchTogether.
 Furthermore, she is known for her contributions to surface computing and gesture design, her papers introduced cooperative gestures and identity-aware widgets. 
 More recently, she became a leader in accessibility, particularly in the field of social media, and accessible communication technologies.
@@ -21,7 +21,16 @@ More recently, she became a leader in accessibility, particularly in the field o
 Besides, she served as the general chair for ACM's CSCW conference, and as Technical Program chair of several conferences.
 She wrote more than 100 peer-reviewed research articles, invented 20 U/S. patents, and influenced many of Microsoft's products.
 
+
 Mrs. Morris recently wrote in collaboration the paper : Sense and Accessibility: Understanding People with Physical Disabilities' Experiences with Sensing Systems.
+
+In this paper, she once again studies the sensing technologies that mediate digital experience, in order to make them appropriate for people with physical disabilities.
+She and the other authors (Shaun Kane and Anhong Guo), conducted a survey with 40 adults with physical disabilities, and their experiences with sensing systems, such as : motion sensors, biometric sensors, speech input, and touch and gesture systems.
+
+The result of their survey identified multiple challenges : the premature timeouts, the device positioning being invisible to sensors, the infidelity of sensors to a range of motion, the variability of the users' abilities over time, the difficulty to set up sensing systems, the biometric failures, the security vulnerabilities, and the data validation problems.
+The participants' answers also showed the reaction of the users to the limitations of the sensor systems.
+They tend to solicit assistance, design adaptations, avoid certain classes of technologies, or even abandon devices.
+This paper will help future researchers to understand the divides coming from the emerging technologies, and it points out to them how to undermine those inequalities through designing and deploying more inclusive sensing systems.
 
 
 # The Ultimate Display form Evan E. Sutherland
