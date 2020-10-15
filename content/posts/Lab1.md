@@ -64,7 +64,7 @@ Then, little surprise, my blog on the baseUrl did not correspond to my blog on t
 
 ![alt Text](https://user-images.githubusercontent.com/71452847/94617984-c2278d80-02aa-11eb-843a-74e0c798bf03.png "Execute")
 
-It happened because I forgot to execute hugo before pushing, and because my first post was still tagged as a draft :.
+It happened because I forgot to execute hugo before pushing, and because my first post was still tagged as a draft.
 My blog was finally deployed !
 
 
