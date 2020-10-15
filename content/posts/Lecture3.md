@@ -31,25 +31,23 @@ Here is the firsts sketches in the point of you of the user.
 He is in a family dinner with his parents in law. 
 He chooses to only heat the positive thaughts.
 
-![alt Text]( "First sketch")
+![alt Text](https://github.com/Ceici92/HugoBlog/tree/master/docs/images/Lecture3/Telepathy1.jpg?raw=true "First sketch")
 
-![alt Text]( "Menu")
-
-![alt Text]( "Dinner with the parents in law")
+![alt Text](https://github.com/Ceici92/HugoBlog/tree/master/docs/images/Lecture3/Telepathy2bis.jpg?raw=true "Dinner with the parents in law")
 *Dinner with the parents in law*
 
 Below you can see an exemple of the option " 1 person thaughts ". 
 Here he discovers if his friends really liked his gift.
 
-![alt Text]( "Did he really liked my gift")
+![alt Text](https://github.com/Ceici92/HugoBlog/tree/master/docs/images/Lecture3/Telepathy4.jpg?raw=true "Did he really liked my gift")
 *Did he really liked my gift*
 
 The last option is to see everyone's thaughts in a 3 metters perimeter. 
 I here you say, "Why would we want to know all their thaugts ?".
 Well, because you are bored in the subway !
 
-![alt Text]( "When you are bored in the Subway")
-*When you are bored in the Subway*
+![alt Text](https://github.com/Ceici92/HugoBlog/tree/master/docs/images/Lecture3/Telepathy2.jpg?raw=true "When you are bored in the subway")
+*When you are bored in the subway*
 
 ## Super Jumps
 
@@ -61,9 +59,9 @@ Below you can see a sketch that shows the user's menu, where he can choose to ju
 Jumping 2 metters is possible for humans, but quite difficult. 
 I believe that the human record is 2,78 metters, so 4 metters is really impressive.
 
-![alt Text]( "Jump1")
+![alt Text](https://github.com/Ceici92/HugoBlog/tree/master/docs/images/Lecture3/Jump1.jpg?raw=true "Jump1")
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/121160876_1280478972314911_7689786588172456568_n.jpg?raw=true "Jump2")
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Jumps2.jpg?raw=true "Jump2")
 
 As we can see, instead of tracking his hands, the setup tracks the user's feats. It guives more realism to the jump.
 
