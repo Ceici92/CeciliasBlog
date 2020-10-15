@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Cecilia&#39;s Blog</title>
-    <link>https://Ceici92.github.io/HugoBlog3/posts/</link>
+    <link>https://Ceici92.github.io/HugoBlog/posts/</link>
     <description>Recent content in Posts on Cecilia&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2020 16:10:15 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog3/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2020 16:10:15 +0200</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab 3</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/lab3/</link>
+      <link>https://Ceici92.github.io/HugoBlog/posts/lab3/</link>
       <pubDate>Tue, 06 Oct 2020 16:10:15 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/lab3/</guid>
+      <guid>https://Ceici92.github.io/HugoBlog/posts/lab3/</guid>
       <description>Hello everyone !
 Today I build my Roll a Ball game on my Android phone.
 Part 1 : Set up To build on Android I had to start with installing the Android Build Support :
@@ -22,10 +22,10 @@ After setting up my unity project, I had to set up my phone.</description>
     
     <item>
       <title>Lab 2</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/lab2/</link>
+      <link>https://Ceici92.github.io/HugoBlog/posts/lab2/</link>
       <pubDate>Mon, 05 Oct 2020 14:16:03 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/lab2/</guid>
+      <guid>https://Ceici92.github.io/HugoBlog/posts/lab2/</guid>
       <description>Hello everyone !
 Today, I built the 3D Unity Application : Roll A Ball. I followed the Unity learn steps to create it. I started by creating the ground :
 Then my player :
@@ -36,10 +36,10 @@ I changed the Build Settings of my project. I had no errors, because I already h
     
     <item>
       <title>Lecture 2</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/lecture2/</link>
+      <link>https://Ceici92.github.io/HugoBlog/posts/lecture2/</link>
       <pubDate>Sun, 04 Oct 2020 19:55:25 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/lecture2/</guid>
+      <guid>https://Ceici92.github.io/HugoBlog/posts/lecture2/</guid>
       <description>Hello everyone !
 Today, I learned more about the researches around Human Computer Interaction, here is a little mark of what I learned.
 HCI Researcher : Meredith Ringel Morris I chose to talk about the researcher Meredith Ringel Morris, because I found her fields of work interesting : Interaction accessibility and Mixed Reality.
@@ -48,10 +48,10 @@ She founded the lab&amp;rsquo;s Ability Research Group, that conduct research ab
     
     <item>
       <title>Lab 1</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/lab1/</link>
+      <link>https://Ceici92.github.io/HugoBlog/posts/lab1/</link>
       <pubDate>Tue, 29 Sep 2020 15:38:43 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/lab1/</guid>
+      <guid>https://Ceici92.github.io/HugoBlog/posts/lab1/</guid>
       <description>Hello everyone !
 During my first lab of HCI, I learned how to make a blog with the static site generator Hugo, how to deploy it with GitHub, and how to setup a Unity project.
 Part 1 : Setup my Blog First steps with Hugo It is my first blog, and my first time using a static site generator. For simplicity, I chose to use the one advised by my teachers : Hugo.</description>
@@ -59,10 +59,10 @@ Part 1 : Setup my Blog First steps with Hugo It is my first blog, and my first t
     
     <item>
       <title>Lecture 1</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</link>
+      <link>https://Ceici92.github.io/HugoBlog/posts/lecture1/</link>
       <pubDate>Sun, 27 Sep 2020 18:35:16 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/lecture1/</guid>
+      <guid>https://Ceici92.github.io/HugoBlog/posts/lecture1/</guid>
       <description>Hello everyone !
 After creating my blog, it is time to write my first Human Computer Interaction&amp;rsquo;s assignment.
 Affordances As I saw in class, an affordance is a property of an artefact which indicates its usage.
@@ -72,10 +72,10 @@ On the contrary, a bad affordance leads us to an incorrect usage of an object.</
     
     <item>
       <title>My First Post</title>
-      <link>https://Ceici92.github.io/HugoBlog3/posts/my-first-post/</link>
+      <link>https://Ceici92.github.io/HugoBlog/posts/my-first-post/</link>
       <pubDate>Fri, 25 Sep 2020 15:53:01 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog3/posts/my-first-post/</guid>
+      <guid>https://Ceici92.github.io/HugoBlog/posts/my-first-post/</guid>
       <description>Hello everyone !
 I created this blog for my Human Computer Interaction class. You will find here my lectures&#39; homework and the description of my laboratories.
 Have fun !</description>
