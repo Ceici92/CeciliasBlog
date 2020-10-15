@@ -10,8 +10,11 @@ Today, I learned more about the researches around Human Computer Interaction, he
 
 # HCI Researcher : Meredith Ringel Morris
 
-I chose to talk about the researcher Meredith Ringel Morris, because I found her fields of work interesting : Interaction accessibility and Mixed Reality.
+I chose to talk about the researcher Meredith Ringel Morris. 
+I found her thanks to the Microsoft site, where there is an article about one of her papers. 
+I liked the fact that it was targeting the accessibility of HCI for everyone.
 
+So I looked into her Microsoft profile.
 She founded the lab's Ability Research Group, that conduct research about the tech-challenges to create more inclusive technologies. 
 She is known as the founder of collaborative eb search, with her system SearchTogether.
 Furthermore, she is known for her contributions to surface computing and gesture design, her papers introduced cooperative gestures and identity-aware widgets. 
