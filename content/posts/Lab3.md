@@ -50,3 +50,13 @@ The axis of the game were not good. When I tried to go up it went right, etc..
 I tried rotating the player, the ground, but it did not work. The gyroscope was as if I was in the portrait mode.
 
 [comment]: <> ([![alt Text](https://user-images.githubusercontent.com/71452847/95677903-3a565300-0bc9-11eb-86c1-480a1fae631c.JPG "Screen phone still bug")](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/video-1602087118.mp4?raw=true))
+
+
+## Bonus
+
+
+## Bonus
+
+I gaved an IP Paris tuch to the game, by moving the pickups to form IPP instead of 2020 :
+
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab2/IPP.JPG?raw=true "IPParis")

@@ -91,8 +91,6 @@ My game was now ready to be build. I built it with the settings given, and Ta Da
 
 ## Bonus
 
-[comment]: <> (I moved the pickups to now form IP Paris instead of 2020 :)
+I gaved an IP Paris tuch to the game, by moving the pickups to form IPP instead of 2020 :
 
-[comment]: <> (IP Paris)
-
-
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab2/IPP.JPG?raw=true "IPParis")
