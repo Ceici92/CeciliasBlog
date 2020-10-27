@@ -1,5 +1,5 @@
 ---
-title: "Lecture4"
+title: "Lecture 4"
 date: 2020-10-22T15:21:51+02:00
 draft: false
 ---
