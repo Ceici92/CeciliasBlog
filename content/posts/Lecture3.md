@@ -114,3 +114,33 @@ My prototype was now ready to use !
 
 
 # User Evaluation
+
+A non piano player tested my prototype.
+I chose a simple music : "Une poule sur un mur", and downloaded its partition.
+To simulate the sound of a piano, I used the online keyboard available on imusic-school.com, therefore when the user taped on the paper key, she could here the sound of the note.
+
+First, we made the test with only one colour sheet, but i had to look at the partition, moove the sheet and play the note on the online keyboard at the same time. 
+I was too slow for the user. 
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Video1.gif?raw=true "Prototype")
+
+
+So, I decided to only put the colour sheet on top of the notes as shown below :
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Video2.gif?raw=true "Prototype")
+
+With this technique I tried to use both colours, but still I was too slow.
+
+
+
+The user had some usefull feedbacks.
+She likes the idea of being able to learn to play piano without notions of music theory. 
+It is satisfying that the application reads the notes for her, and even if she decides to take music theory lessons, the application could still help her to learn the notes on a music sheet by showing them on the piano.
+
+For the rhythm, using the two sheets of colour did not seem really clear for her. 
+So, I suggested two other ideas. 
+The colour could change when she taps on the key, and stays until she has to stop tapping it.
+Also, without changing colours, there could be a gauge showing how much time she must wait before playing the other note. 
+This gauge would start after she let go of the previous note.
+
+Therefore, even if my prototype has some flaws ( the speed to show a note ), the user experience still showed me what really mattered : being able to play without having further knowledge of music theory, and how to improve my application to illustrate better the music rhythm. 
