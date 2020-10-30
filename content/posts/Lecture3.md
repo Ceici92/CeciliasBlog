@@ -1,5 +1,5 @@
 ---
-title: "Lecture3"
+title: "Lecture 3"
 date: 2020-10-15T12:06:32+02:00
 draft: true
 ---
@@ -62,7 +62,7 @@ I believe that the human record is 2,78 metters, so 4 metters is really impressi
 
 ![alt Text](https://github.com/Ceici92/HugoBlog/tree/master/docs/images/Lecture3/Jump1.jpg?raw=true "Jump1")
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Jumps2.jpg?raw=true "Jump2")
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Jump2.jpg?raw=true "Jump2")
 
 As we can see, instead of tracking his hands, the setup tracks the user's feats. It guives more realism to the jump.
 
