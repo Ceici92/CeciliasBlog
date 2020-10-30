@@ -96,12 +96,12 @@ I let a little space between each key to make them reacognizable once cut.
 ![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano2.jpg?raw=true "Piano drawing")
 
 Then, I cut the paper following the guidelines I draw. 
-I added the black keys for realism, but without making them playable since some songs can be played only with the white keys.
 
 ![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano3.jpg?raw=true "Paper cut and black keys")
 
 Next, I glued the first sheet of paper on the second one, but I let space on top of the keys.
 Because it is easier to control the color sheet from the side the most futher away from the key, without troubling the player.
+I added the black keys for realism, but without making them playable since some songs can be played only with the white keys.
 
 ![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano4.jpg?raw=true "Papers joined")
 
