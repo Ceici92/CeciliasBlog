@@ -38,7 +38,7 @@ Indeed, we would easily and instantly see on a screen as wide as a wall our favo
 
 # Ubiquitous Computing
 
-Task : Read Mark Weiser’s paper and discuss the following question: Are we already living in a world of
+Task : Read Mark Weiser's paper and discuss the following question: Are we already living in a world of
 ubiquitous computing ? What already happened that we need for this vision and what needs to
 happen that we get more towards ubiquitous computing ?
 
@@ -109,7 +109,7 @@ First, I thought about an MR Map app.
 Today, it is one of the most used application on our smartphones, and mixed reality would really enhance its utilisation.
 Indeed, instead of turning down our eyes from the road to see where to go, we could directly see the directions and the time left to arrive on top of the environment.
 The directions would also be clearer than on a map, we would see more easily wich street to take.
-Moreover, with this app we could easily see where to find restaurants, shops, bars, and cafés around us, along with information about them : the rating, the average price, the type of food thhey serve, etc...
+Moreover, with this app we could easily see where to find restaurants, shops, bars, and cafes around us, along with information about them : the rating, the average price, the type of food thhey serve, etc...
 
 Another category of worldwide used applications is the communication apps. 
 Whatsapp is the most used app in 2020.
@@ -127,4 +127,4 @@ Each time you want to buy something, you could place your AR object in your plac
 What's more, the application could give the user recommendations on how to reorganise his room in order to optimize its space, or recommend more suited furnitures.
 Such apps are already being developed or researched upon by specialised companies such as Ikea, and I believe that in a world of ubiquitous MR, this kind of application will be in the most used one.
 
-Those three applications are the ones I more easily imagine in the future of MR, however there are plenty of applications that would rise their number of users in an ubiquitous MR world, such as : Yuka, ToGoodToGo, Paint, the Schedule, etc...
+Those three applications are the ones I more easily imagine in the future of MR, however there are plenty of applications that would be great in MR, such as : Yuka, ToGoodToGo, Paint, the Schedule, etc...

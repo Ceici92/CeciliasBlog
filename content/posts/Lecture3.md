@@ -49,6 +49,7 @@ Well, because you are bored in the subway !
 ![alt Text](https://github.com/Ceici92/HugoBlog/tree/master/docs/images/Lecture3/Telepathy2.jpg?raw=true "When you are bored in the subway")
 *When you are bored in the subway*
 
+
 ## Super Jumps
 
 The second idea is to enhance human jumping, with an application that gives the sensation to jump higther. 
@@ -65,6 +66,51 @@ I believe that the human record is 2,78 metters, so 4 metters is really impressi
 
 As we can see, instead of tracking his hands, the setup tracks the user's feats. It guives more realism to the jump.
 
+
+## Piano Virtuose
+
+The third idea is a AR application that helps the user becoming a pianist. 
+As you can see on the sketch below, the player wears an AR headset that hilights in color the key that should be played next, on the music sheet and on the keyboard.
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano1.jpg?raw=true "Piano sketch")
+
+The color hilighting the key depends on the note's length. 
+The shortest beat a note is, the more vivid the color will be. 
+For exemple, on the sketch I chose to hilight in blue a minim note (2 beats), and in red a demisemiquaver (1/8 beat).
+The semibreves could be highlighted in green, the minims in blue, the crotchets in purple, the quaver in yellow, the semiquaver in orange and the demisemiquaver in red.
+
+This way, the AR application would not only show which piano key to play, but how long it should be played.
+
+
 # Prototype
+
+I decided to make a prototype of the piano application, because it seemed to be the most feasible.
+
+I think that a paper prototype is really suited for this application. 
+My idea was to represent piano keys on the paper, by cutting holes on a first sheet and putting on top of a second sheet.
+To let another piece of paper in color pass through the two sheets, they should only be glued on their extremities.
+
+To make my prototype a minimum realistic, I started by measuring the size of the piano keys, before drawing them on the first paper sheet.
+I let a little space between each key to make them reacognizable once cut.
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano2.jpg?raw=true "Piano drawing")
+
+Then, I cut the paper following the guidelines I draw. 
+I added the black keys for realism, but without making them playable since some songs can be played only with the white keys.
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano3.jpg?raw=true "Paper cut and black keys")
+
+Next, I glued the first sheet of paper on the second one, but I let space on top of the keys.
+Because it is easier to control the color sheet from the side the most futher away from the key, without troubling the player.
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano4.jpg?raw=true "Papers joined")
+
+Finally, I cut two long paper sheet of the width of one key notes, in order to simulate the hilighting of the application.
+My prototype was now ready to use !
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano5.jpg?raw=true "Prototype")
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano6.gif?raw=true "Prototype")
+
 
 # User Evaluation
