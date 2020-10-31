@@ -7,7 +7,7 @@ draft: false
 Hello everyone !
 
 
-I am a student at Télécom SudParis and at the Institut Polytechnique de Paris (IPP).
+I am a student at Telecom SudParis and at the Institut Polytechnique de Paris (IPP).
 This year (2020) I am following the master Virtual and Augmented Reality at the IPP.
 
 I created this blog for my Human Computer Interaction (HCI) class. 

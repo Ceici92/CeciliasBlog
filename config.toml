@@ -7,7 +7,7 @@ canonifyURLs = true
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 5
+Paginate = 10
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -21,4 +21,4 @@ enableRobotsTXT = true
   background_color_class = "bg-light-red"
   # background_color_class = "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/orlova-maria.jpg?raw=true"
   featured_image = "https://user-images.githubusercontent.com/71452847/95070173-029e6580-0708-11eb-9201-03c8436ec97c.jpg"
-  recent_posts_number = 2
+  recent_posts_number = 3
