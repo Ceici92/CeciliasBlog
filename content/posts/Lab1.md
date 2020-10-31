@@ -2,7 +2,6 @@
 title: "Lab 1"
 date: 2020-09-29T15:38:43+02:00
 draft: false
-featured_image: "https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab1/Blog.JPG?raw=true"
 ---
 
 Hello everyone !

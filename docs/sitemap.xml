@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Ceici92.github.io/HugoBlog/posts/</loc>
+    <lastmod>2020-10-31T17:46:19+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://Ceici92.github.io/HugoBlog/</loc>
     <lastmod>2020-10-31T17:15:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -11,13 +18,6 @@
   
   <url>
     <loc>https://Ceici92.github.io/HugoBlog/posts/lab4/</loc>
-    <lastmod>2020-10-30T19:46:28+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://Ceici92.github.io/HugoBlog/posts/</loc>
     <lastmod>2020-10-30T19:46:28+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

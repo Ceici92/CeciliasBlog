@@ -2,7 +2,7 @@
 title: "Lecture 4"
 date: 2020-10-22T15:21:51+02:00
 draft: false
-featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture4/EvolutionMobileDiapo.JPG?raw=true"
+featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture4/UbiquitousComputing.JPG?raw=true"
 ---
 
 Hello everyone !
@@ -38,6 +38,8 @@ Indeed, we would easily and instantly see on a screen as wide as a wall our favo
 
 
 # Ubiquitous Computing
+
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lecture4/UbiquitousComputing.JPG?raw=true "")
 
 Task : Read Mark Weiser's paper and discuss the following question: Are we already living in a world of
 ubiquitous computing ? What already happened that we need for this vision and what needs to
