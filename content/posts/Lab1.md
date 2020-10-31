@@ -34,6 +34,11 @@ I was able to test my blog locally with the command : hugo server -D.
 
 ![alt Text](https://user-images.githubusercontent.com/71452847/95682659-ca56c580-0be6-11eb-987e-853bc8b2ab5d.png "Blog first draft")
 
+I changed the colours of the different pages of my blog to make it more fun.
+To do so I follow the instructions of the ReadMe file :
+
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/Colours.JPG?raw=true "Video")
+
 When I was satisfied of what it looked like, I plunged into the most difficult part for me : the deployment ! 
 
 
