@@ -2,6 +2,7 @@
 title: "Lecture 2"
 date: 2020-10-04T19:55:25+02:00
 draft: false
+featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture2/merrie_morris.jpg?raw=true"
 ---
 
 Hello everyone !
@@ -9,6 +10,8 @@ Hello everyone !
 Today, I learned more about the researches around Human Computer Interaction, here is a little mark of what I learned.
 
 # HCI Researcher : Meredith Ringel Morris
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture2/merrie_morris.jpg?raw=true "");
 
 I chose to talk about the researcher Meredith Ringel Morris. 
 I found her thanks to the Microsoft site, where there is an article about one of her papers. 
@@ -58,7 +61,9 @@ On another part, Evan Sutherland dreams of the control of computer through visio
 
 # Input Devices and Interaction Paradigms
 
-The Ring by Logdbar is a wearable input device aim to control payment, text, or any other parameter of another device, through hand gestures. The product was showed for the first time at the Consumer Electronics Show in Las Vegas in 2015.
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture2/Ring.jpg?raw=true "");
+
+The Ring by Logbar is a wearable input device aim to control payment, text, or any other parameter of another device, through hand gestures. The product was showed for the first time at the Consumer Electronics Show in Las Vegas in 2015.
 A button in the side of the ring enables the user to signal the harware that it will make a geture, and with an application on your phone you can configure the gestures you want to do. 
 
 This 3D User Interface from is a failure. The first reason could be that most of its functionalities are only for simple things, such as : turning off the lights, writing messages (which seems faster with our phones), make payments, move a 3D modelidation, etc...

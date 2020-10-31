@@ -2,6 +2,7 @@
 title: "Lab 2"
 date: 2020-10-05T14:16:03+02:00
 draft: false
+featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab2/RollABallComputer.gif?raw=true"
 ---
 
 Hello everyone !

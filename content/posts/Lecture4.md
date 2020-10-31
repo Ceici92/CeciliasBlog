@@ -2,6 +2,7 @@
 title: "Lecture 4"
 date: 2020-10-22T15:21:51+02:00
 draft: false
+featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture4/EvolutionMobileDiapo.JPG?raw=true"
 ---
 
 Hello everyone !

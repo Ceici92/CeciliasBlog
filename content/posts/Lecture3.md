@@ -2,6 +2,7 @@
 title: "Lecture 3"
 date: 2020-10-15T12:06:32+02:00
 draft: false
+featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano5.jpg?raw=true"
 ---
 
 Hello everyone ! 
@@ -14,7 +15,7 @@ In today's lesson I learned more about the design process, sketching, prototypin
 I thought of 3 ideas of augmented reality applications to enhance human abilities. 
 
 
-## Telepathy
+### Telepathy
 
 Didn't you ever want to know what the others think ? Well with this AR application you could ! 
 
@@ -40,7 +41,7 @@ Below you can see an example of the option " 1 person thoughts ".
 Here he discovers if his friends really liked his gift.
 
 ![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Telepathy4.jpg?raw=true "Did he really liked my gift")
-*Did he really like my gift*
+*When you are not sure that your friend liked your gift*
 
 The last option is to see everyone's thoughts in a 3 meters perimeter. 
 I here you say, "Why would we want to know all their thougts ?".
@@ -50,7 +51,7 @@ Well, because you are bored in the subway !
 *When you are bored in the subway*
 
 
-## Super Jumps
+### Super Jumps
 
 The second idea is to enhance human jumping, with an application that gives the sensation to jump higher. 
 First, the user can choose how hight he wants to jump, then he can see the creation of a virtual hole in front of him, where he will jump into.
@@ -67,7 +68,7 @@ I believe that the human record is 2,78 meters, so 4 meters is really impressive
 As we can see, instead of tracking his hands, the setup tracks the user's feats. It gives more realism to the jump.
 
 
-## Piano Virtuoso
+### Piano Virtuoso
 
 The third idea is a AR application that helps the user becoming a pianist. 
 As you can see on the sketch below, the player wears an AR headset that highlights in colour the key that should be played next, on the music sheet and on the keyboard.
@@ -122,15 +123,13 @@ To simulate the sound of a piano, I used the online keyboard available on imusic
 First, we made the test with only one colour sheet, but i had to look at the partition, moove the sheet and play the note on the online keyboard at the same time. 
 I was too slow for the user. 
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Video1.gif?raw=true "Prototype")
-
-
-So, I decided to only put the colour sheet on top of the notes as shown below :
-
 ![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Video2.gif?raw=true "Prototype")
 
-With this technique I tried to use both colours, but still I was too slow.
 
+So, I decided to only put the colour sheet on top of the notes as shown below.
+With this technique I tried to use both colour sheets, but I was still too slow for the user.
+
+![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Video1.gif?raw=true "Prototype")
 
 
 The user had some usefull feedbacks.
@@ -143,4 +142,4 @@ The colour could change when she taps on the key, and stays until she has to sto
 Also, without changing colours, there could be a gauge showing how much time she must wait before playing the other note. 
 This gauge would start after she let go of the previous note.
 
-Therefore, even if my prototype has some flaws ( the speed to show a note ), the user experience still showed me what really mattered : being able to play without having further knowledge of music theory, and how to improve my application to illustrate better the music rhythm. 
+Therefore, even if my prototype has some flaws ( the speed to show a note ), the user experience still showed me what really mattered : being able to play without having further knowledge of music theory, and how to improve my application : illustrate better the music rhythm. 

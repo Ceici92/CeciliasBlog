@@ -2,6 +2,7 @@
 title: "Lecture 1"
 date: 2020-09-27T18:35:16+02:00
 draft: false
+featured_image: "https://user-images.githubusercontent.com/71452847/95379546-ce809b80-08e5-11eb-8367-6e08062a0852.png"
 ---
 
 Hello everyone !
@@ -71,7 +72,7 @@ The presentation of the adjective should also be different than the others, for 
 Dark designs aim to advantage a business by using humans' cognition to trick the user.
 
 
-## Instagram
+### Instagram
 
 For example, Instagram uses the principle of "Obstruction" and "Interference" to discourage a user to delete his account. 
 Indeed, we would think that we only need to go to our account parameters to delete it, but instead we only have the possibility to "Deactivate it temporarily". 
@@ -91,7 +92,7 @@ This is Obstruction because this process is more difficult than it had to be.
 To achieve the opposite, we could add a "Delete your account" button, in the parameters of an account, and make sure to enable the functionality on the web browser and the application.
 
 
-## Amazon Prime Video 
+### Amazon Prime Video 
 
 Amazon Prime Video uses the Sneaking technique, to make us buy a movie or episodes of a tv-show. For example, the site presents us the TV Show "Watchmen" as one of the programs available on the site. When we click on it, we even have the same presentation as an available show.
 However, when we click on the "More options" which really looks like "Add to favourites", we finally see that we must pay to watch it.

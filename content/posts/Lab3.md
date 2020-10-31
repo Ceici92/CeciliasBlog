@@ -2,6 +2,7 @@
 title: "Lab 3"
 date: 2020-10-06T16:10:15+02:00
 draft: false
+featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab3/Lab3.gif?raw=true"
 ---
 
 
