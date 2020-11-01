@@ -2,7 +2,7 @@
 title: "Lab 4"
 date: 2020-10-30T19:46:28+01:00
 draft: false
-#featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/Black.jpg?raw=true"
+featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR5.JPG?raw=true"
 ---
 
 Hello everyone !
@@ -115,7 +115,10 @@ The problem could also come for the fact that I did not download all the compone
 So, I downloaded all of them in the powerful computer, and run my project.
 Anything changed.
 
-I also tried to see if I had the same problem with an example scene, and it was the same.
+I tried to move the groud and my Roll a Ball object to see if the player was in the ground, but still I saw nothing.
 
-Therefore, the issue must come from the VRTK package. 
+I also tried to see if I had the same problem with an example scene, and it was the same : my screen stayed black.
+
+Therefore, the issue must come from one of the package's component I used, that must be obsolete.
+However, I was not able to find it.
 
