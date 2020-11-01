@@ -2,7 +2,7 @@
 title: "Lab 4"
 date: 2020-10-30T19:46:28+01:00
 draft: false
-featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/Black.jpg?raw=true"
+#featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/Black.jpg?raw=true"
 ---
 
 Hello everyone !

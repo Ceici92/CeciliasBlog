@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Cecilia&#39;s Blog</title>
-    <link>https://Ceici92.github.io/HugoBlog/posts/</link>
+    <link>https://Ceici92.github.io/CeciliasBlog/posts/</link>
     <description>Recent content in Posts on Cecilia&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2020 17:46:19 +0100</lastBuildDate><atom:link href="https://Ceici92.github.io/HugoBlog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Oct 2020 17:46:19 +0100</lastBuildDate><atom:link href="https://Ceici92.github.io/CeciliasBlog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab 4</title>
-      <link>https://Ceici92.github.io/HugoBlog/posts/lab4/</link>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/lab4/</link>
       <pubDate>Fri, 30 Oct 2020 19:46:28 +0100</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog/posts/lab4/</guid>
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/lab4/</guid>
       <description>Hello everyone !
 Today, I created my first VR application for Oculus Quest. I modified my Roll a Ball game to work in VR.
 First, I downloaded the VRTK project from VRTK4&amp;rsquo;s Github, in order to use some of its packages. I changed the project settings as followed :
@@ -22,10 +22,10 @@ I exported my Roll a ball project assets, and imported it in my VRTK project :</
     
     <item>
       <title>Lecture 4</title>
-      <link>https://Ceici92.github.io/HugoBlog/posts/lecture4/</link>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/lecture4/</link>
       <pubDate>Thu, 22 Oct 2020 15:21:51 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog/posts/lecture4/</guid>
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/lecture4/</guid>
       <description>Hi everyone !
 During the fourth HCI lecture, we focused on mobiles and the concept of Ubiquitous Computing.
 Smartphones Why did they change their shape and what do you think will be the next step in this transformation ? Explain why you think this could be the case.
@@ -34,10 +34,10 @@ As we can see on this image from the HCI lesson, from the 1990 to 2000 smartphon
     
     <item>
       <title>Lecture 3</title>
-      <link>https://Ceici92.github.io/HugoBlog/posts/lecture3/</link>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/lecture3/</link>
       <pubDate>Thu, 15 Oct 2020 12:06:32 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog/posts/lecture3/</guid>
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/lecture3/</guid>
       <description>Hello everyone !
 In today&amp;rsquo;s lesson I learned more about the design process : about sketching, prototyping and user evaluation.
 Ideate I thought of 3 ideas of augmented reality applications to enhance human abilities.
@@ -47,10 +47,10 @@ Indeed, this first application enables telepathy. The user has the possibility t
     
     <item>
       <title>Lab 3</title>
-      <link>https://Ceici92.github.io/HugoBlog/posts/lab3/</link>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/lab3/</link>
       <pubDate>Tue, 06 Oct 2020 16:10:15 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog/posts/lab3/</guid>
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/lab3/</guid>
       <description>Hello everyone !
 Today I build my Roll a Ball game on my Android phone.
 Part 1 : Set up To build on Android I had to start with installing the Android Build Support :
@@ -60,10 +60,10 @@ After setting up my unity project, I had to set up my phone.</description>
     
     <item>
       <title>Lab 2</title>
-      <link>https://Ceici92.github.io/HugoBlog/posts/lab2/</link>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/lab2/</link>
       <pubDate>Mon, 05 Oct 2020 14:16:03 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog/posts/lab2/</guid>
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/lab2/</guid>
       <description>Hi everyone !
 Today, I built the 3D Unity Application : Roll A Ball. I followed the Unity learn steps, and I started by creating the ground :
 Then my player :
@@ -74,10 +74,10 @@ I changed the Build Settings of my project. I had no errors, because I already h
     
     <item>
       <title>Lecture 2</title>
-      <link>https://Ceici92.github.io/HugoBlog/posts/lecture2/</link>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/lecture2/</link>
       <pubDate>Sun, 04 Oct 2020 19:55:25 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog/posts/lecture2/</guid>
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/lecture2/</guid>
       <description>Hello everyone !
 Today, I learned more about the research around Human Computer Interaction, here is a little mark of what I learned.
 HCI Researcher : Meredith Ringel Morris I chose to talk about the researcher Meredith Ringel Morris. I found her thanks to the Microsoft site, where there is an article about one of her papers. I liked the fact that it was targeting the accessibility of HCI for everyone.</description>
@@ -85,10 +85,10 @@ HCI Researcher : Meredith Ringel Morris I chose to talk about the researcher Mer
     
     <item>
       <title>Lab 1</title>
-      <link>https://Ceici92.github.io/HugoBlog/posts/lab1/</link>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/lab1/</link>
       <pubDate>Tue, 29 Sep 2020 15:38:43 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog/posts/lab1/</guid>
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/lab1/</guid>
       <description>Hello everyone !
 During my first lab of HCI, I learned how to make a blog with the static site generator Hugo, how to deploy it with GitHub, and how to setup a Unity project.
 Part 1 : Setup my Blog First steps with Hugo It is my first blog, and my first time using a static site generator. For simplicity, I chose to use the one advised by my teachers : Hugo.</description>
@@ -96,10 +96,10 @@ Part 1 : Setup my Blog First steps with Hugo It is my first blog, and my first t
     
     <item>
       <title>Lecture 1</title>
-      <link>https://Ceici92.github.io/HugoBlog/posts/lecture1/</link>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/lecture1/</link>
       <pubDate>Sun, 27 Sep 2020 18:35:16 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog/posts/lecture1/</guid>
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/lecture1/</guid>
       <description>Hi everyone !
 After creating my blog, it is time to write my first Human Computer Interaction&amp;rsquo;s assignment.
 Affordances As I saw in class, an affordance is a property of an artefact which indicates its usage.
@@ -109,10 +109,10 @@ On the contrary, a bad affordance leads us to an incorrect usage of an object.</
     
     <item>
       <title>My First Post</title>
-      <link>https://Ceici92.github.io/HugoBlog/posts/my-first-post/</link>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/my-first-post/</link>
       <pubDate>Fri, 25 Sep 2020 15:53:01 +0200</pubDate>
       
-      <guid>https://Ceici92.github.io/HugoBlog/posts/my-first-post/</guid>
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/my-first-post/</guid>
       <description>Hello everyone !
 I am a student at Telecom SudParis since 2018, where I learned the basics of Extended Reality, how to use Unity, and how to code on various languages such as Java and C. I really liked my classes of Extended Reality, so I decided to join a master dedicated to it. This year (2020), I am following the master Virtual and Augmented Reality at the Institut Polytechnique de Paris (IPP), as a double degree with Telecom SudParis.</description>
     </item>
