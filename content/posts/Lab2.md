@@ -5,11 +5,10 @@ draft: false
 featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab2/RollABallComputer.gif?raw=true"
 ---
 
-Hello everyone !
+Hi everyone !
 
 
-Today, I built the 3D Unity Application : Roll A Ball. I followed the Unity learn steps to create it.
-I started by creating the ground :
+Today, I built the 3D Unity Application : Roll A Ball. I followed the Unity learn steps, and I started by creating the ground :
  
 ![alt Text](https://user-images.githubusercontent.com/71452847/95080658-b576bf80-0718-11eb-93fe-14e78926e891.png "The ground")
 
@@ -39,7 +38,7 @@ I added the Rigidbody to my player, in order to subject it to gravity :
 ![alt Text](https://user-images.githubusercontent.com/71452847/95080701-c7586280-0718-11eb-88fc-049bce9a7403.png "Rigidbody")
 
 
-I added the Player Input to the player and the input actions, in order to use the pre-defined moving commands :
+I added the Player Input to the player and the Input Actions, in order to use the pre-defined moving commands :
  
 ![alt Text](https://user-images.githubusercontent.com/71452847/95080707-cb848000-0718-11eb-91a0-65558b2b4372.png "Player Input")
 

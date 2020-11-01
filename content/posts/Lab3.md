@@ -2,11 +2,11 @@
 title: "Lab 3"
 date: 2020-10-06T16:10:15+02:00
 draft: false
-featured_image: "(https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/121064455_633550003949458_2545566836504823763_n.jpg?raw=true"
+featured_image: "https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/121064455_633550003949458_2545566836504823763_n.jpg?raw=true"
 ---
 
-
 Hello everyone !
+
 
 Today I build my Roll a Ball game on my Android phone.
 
@@ -19,10 +19,10 @@ To build on Android I had to start with installing the Android Build Support :
 
 Then, I had to define the new build settings, starting with the player settings : the orientation, the graphic APIs, the identification and the publishing key.
 
-![alt Text](https://user-images.githubusercontent.com/71452847/95097488-d4cc1780-072d-11eb-9aca-bdd4ee8e04fb.png "Player Settings")
-![alt Text](https://user-images.githubusercontent.com/71452847/95097495-d695db00-072d-11eb-9109-cc71b5f005e1.png "Unity settings")
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/1.png?raw=true "Phone screen")
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/2.png?raw=true "Phone screen")
 
-After setting up my unity project, I had to set up my phone. I activated the developer mode, and enabled the debugging mode. 
+After setting up my unity project, I had to set up my phone. I activated the developer mode, and enabled the debugging. 
 
 ![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/120959576_3379234365523327_2511240152500799826_n.jpg?raw=true "Phone settings")
 
@@ -41,19 +41,11 @@ For this I put the camera, the walls, the light, and the pick-ups as children of
  
 Then code the Tinltig script for the ground :
 
-![alt Text](https://user-images.githubusercontent.com/71452847/95097530-ddbce900-072d-11eb-83da-d344b60db66e.png "Script")
+![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/3.png?raw=true "Phone screen")
 
-I build again, and my ball literally ended out of my arena. So I lowered the speed of my player, and augmented its gravity. Still a problem remained :
+I build again, and my ball literally ended out of my arena. So I lowered the speed of my player, and augmented its gravity. 
 
 ![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/Lab3.gif?raw=true "Gif")
-
-The axis of the game were not good. When I tried to go up it went right, etc..
-I tried rotating the player, the ground, but it did not work. The gyroscope was as if I was in the portrait mode.
-
-[comment]: <> ([![alt Text](https://user-images.githubusercontent.com/71452847/95677903-3a565300-0bc9-11eb-86c1-480a1fae631c.JPG "Screen phone still bug")](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/video-1602087118.mp4?raw=true))
-
-
-## Bonus
 
 
 ## Bonus

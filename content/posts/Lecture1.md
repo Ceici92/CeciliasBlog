@@ -5,7 +5,7 @@ draft: false
 featured_image: "https://user-images.githubusercontent.com/71452847/95379546-ce809b80-08e5-11eb-8367-6e08062a0852.png"
 ---
 
-Hello everyone !
+Hi everyone !
 
 After creating my blog, it is time to write my first Human Computer Interaction's assignment.
 
@@ -31,7 +31,7 @@ Therefore, the first few times I forgot to turn it off, because instinctively if
 ![alt Text](https://user-images.githubusercontent.com/71452847/95689951-b7f38080-0c14-11eb-9656-08854e2b516d.jpg "Hotplate still turned on")
 *When the temperature does not increase but the hotplate is still on*
 
-To correct this design, the hotplate should be red while it is on, and to show that the temperature is increasing the red would be more intense.
+To correct this design, the hotplate should be red while it is on, and to show that the temperature is increasing the red should be more intense.
 
 
 
@@ -62,7 +62,7 @@ Furthermore, the principle of proximity can also be identified here.
 ![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab1/Masks.jpg?raw=true "Bad designed masks' box")
 *From CrappyDesign's post on Reddit*
 
-To correct the ad, the last adjective could be put on top of the top or on the right down corner of the box.
+To correct the ad, the last adjective could be put on top or on the right down corner of the box.
 The presentation of the adjective should also be different than the others, for example the cross could be removed.
 
 
@@ -97,7 +97,7 @@ To achieve the opposite, we could add a "Delete your account" button, in the par
 Amazon Prime Video uses the Sneaking technique, to make us buy a movie or episodes of a tv-show. For example, the site presents us the TV Show "Watchmen" as one of the programs available on the site. When we click on it, we even have the same presentation as an available show.
 However, when we click on the "More options" which really looks like "Add to favourites", we finally see that we must pay to watch it.
 
-![alt Text] (https://user-images.githubusercontent.com/71452847/95379546-ce809b80-08e5-11eb-8367-6e08062a0852.png "Announces")
+![alt Text](https://user-images.githubusercontent.com/71452847/95379546-ce809b80-08e5-11eb-8367-6e08062a0852.png "Announces")
 *Sneaky proposition*
 
 ![alt Text](https://user-images.githubusercontent.com/71452847/95369339-9a05e300-08d7-11eb-8546-6995c86f73f8.png "Watchmen")
