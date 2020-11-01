@@ -46,8 +46,7 @@ Task : Read Mark Weiser's paper and discuss the following question: Are we alrea
 ubiquitous computing ? What already happened that we need for this vision and what needs to
 happen that we get more towards ubiquitous computing ?
 
-.
-.
+...
 
 From the description of Ubiquitous Computing given in Mark Weiser's paper, in some aspects we already live in a world of Ubiquitous Computing.
 
@@ -84,8 +83,7 @@ Finally, we reached the increasing fragility of our privacy predicted by Mark We
 The amount of private information collected on the users' devices is now put into question, due to its usage by marketing firms to make targeted advertisement, 
 or by the Government to assure our security, or even by private firms to influence our political views.
 
-.
-.
+...
 
 
 However, some characteristics presented in the paper suggest that we still have work to do to get more towards Ubiquitous Computing.
@@ -102,8 +100,7 @@ The current devices do not "fit the environment instead of forcing humans to ent
 Users still need to make the effort of entering to a new world when using current technology, and still have this sensation of fatigue after a long time of use.
 Therefore, current technology does not represent embodied virtuality.
 
-.
-.
+...
 
 Even though current devices are miniaturized, networking, and low consumers of energy, they still isolated users, and do not fit in the human environment. 
 However, I am thrilled to see the time when computing devices will fill as effortless and refreshing as a "walk in the woods".
