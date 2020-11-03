@@ -39,7 +39,7 @@ I was able to test my blog locally with the command : hugo server -D.
 I changed the colours of the different pages of my blog to make it more fun.
 To do so I follow the instructions of the ReadMe file :
 
-![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab1/Colours.JPG?raw=true "Video")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab1/Colours.JPG?raw=true "Video")
 
 When I was satisfied of what it looked like, I plunged into the most difficult part for me : the deployment ! 
 
@@ -102,7 +102,11 @@ Finally I decided to make it a gif, with Photoshop :
 
 It worked ! The file could now be previsualised in git, it means that it can now be seen directly on my page, as you can see here :
 
-![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab3/Lab3.gif?raw=true "Video")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab3/Lab3.gif?raw=true "Video")
+
+I also noticed that to easily modify a recurrent coding issue on Visual Studio I can use Cytl + H for 1 file, or Ctrl + Maj + H for all the opened files.
+
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab1/CtrlMajH.JPG?raw=true "Raccourcis Clavier")
 
 
 

@@ -39,7 +39,7 @@ As we can see on this image from the HCI lesson, from the 1990 to 2000 smartphon
       
       <guid>https://Ceici92.github.io/CeciliasBlog/posts/postunity/</guid>
       <description>Hello everyone!
-For the Unity class, I made my own Platformer Game, following Lea&amp;rsquo;s lessons and some youtube tutorials.
+For the Unity class, I made my own Platformer Game, following Lea&amp;rsquo;s lessons and some Youtube tutorials.
 Moving Platforms First, I learn how to create a moving platform.
 I created a platform, with a RigidBody and a Box Collider.
 In order to make it move, I first used an animator, and defined its movement. However, even with a velocity script, my character could not move once he was on the platform.</description>

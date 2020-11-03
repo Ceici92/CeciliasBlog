@@ -2,7 +2,7 @@
 title: "Lecture 4"
 date: 2020-10-22T15:21:51+02:00
 draft: false
-featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture4/UbiquitousComputing.JPG?raw=true"
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture4/UbiquitousComputing.JPG?raw=true"
 ---
 
 Hi everyone !
@@ -14,7 +14,7 @@ During the fourth HCI lecture, we focused on mobiles and the concept of Ubiquito
 
 Why did they change their shape and what do you think will be the next step in this transformation ? Explain why you think this could be the case.
 
-![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lecture4/EvolutionMobileDiapo.JPG?raw=true "Evolution smartphones")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture4/EvolutionMobileDiapo.JPG?raw=true "Evolution smartphones")
 
 As we can see on this image from the HCI lesson, from the 1990 to 2000 smartphones shrunken along the years. 
 They became smaller and slimer in order to fit in our pockets, and be taken everywhere. 
@@ -40,7 +40,7 @@ We would easily and instantly see on a screen as wide as a wall our favourite tv
 
 # Ubiquitous Computing
 
-![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lecture4/UbiquitousComputing.JPG?raw=true "")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture4/UbiquitousComputing.JPG?raw=true "")
 
 Task : Read Mark Weiser's paper and discuss the following question: Are we already living in a world of
 ubiquitous computing ? What already happened that we need for this vision and what needs to

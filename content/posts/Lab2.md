@@ -85,7 +85,7 @@ Finally, I added the "Count" and "Win" text, a Text Mesh Pro object :
 
 My game was now ready to be build. I built it with the settings given, and Ta Da ! My first Roll A Ball game works on my computer :
 
-![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab2/RollABallComputer.gif?raw=true "Video")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab2/RollABallComputer.gif?raw=true "Video")
 
 
 
@@ -93,4 +93,4 @@ My game was now ready to be build. I built it with the settings given, and Ta Da
 
 I gaved an IP Paris tuch to the game, by moving the pickups to form IPP instead of 2020 :
 
-![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab2/IPP.JPG?raw=true "IPParis")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab2/IPP.JPG?raw=true "IPParis")

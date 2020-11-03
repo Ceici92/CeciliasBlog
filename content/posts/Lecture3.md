@@ -2,7 +2,7 @@
 title: "Lecture 3"
 date: 2020-10-15T12:06:32+02:00
 draft: false
-featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano5.jpg?raw=true"
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Piano5.jpg?raw=true"
 ---
 
 Hello everyone !
@@ -31,20 +31,20 @@ Here is the firsts sketches in the point of you of the user.
 He is in a family dinner with his parents in law. 
 He chooses to only hear the positive thoughts.
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Telepathy1.jpg?raw=true "First sketch")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Telepathy1.jpg?raw=true "First sketch")
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Telepathy2bis.jpg?raw=true "Dinner with the parents in law")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Telepathy2bis.jpg?raw=true "Dinner with the parents in law")
 
 Below you can see an example of the option " 1 person thoughts ". 
 Here he discovers if his friends really liked his gift.
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Telepathy4.jpg?raw=true "Did he really liked my gift")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Telepathy4.jpg?raw=true "Did he really liked my gift")
 
 The last option is to see everyone's thoughts in a 3 meters perimeter. 
 I here you say, "Why would we want to know all their thoughts ?".
 Well, because you are bored in the subway !
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Telepathy2.jpg?raw=true "When you are bored in the subway")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Telepathy2.jpg?raw=true "When you are bored in the subway")
 
 
 ### Super Jumps
@@ -57,9 +57,9 @@ Below you can see a sketch that shows the user's menu, where he can choose to ju
 Jumping 2 meters is possible for humans, but quite difficult. 
 I believe that the human record is 2,78 meters, so 4 meters is really impressive.
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Jump1.jpg?raw=true "Jump1")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Jump1.jpg?raw=true "Jump1")
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Jump2.jpg?raw=true "Jump2")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Jump2.jpg?raw=true "Jump2")
 
 As we can see, instead of tracking his hands, the setup tracks the user's feats. It gives more realism to the jump.
 
@@ -69,7 +69,7 @@ As we can see, instead of tracking his hands, the setup tracks the user's feats.
 The third idea is a AR application that helps the user becoming a pianist. 
 As you can see on the sketch below, the player wears an AR headset that highlights in colour the key that should be played next, on the music sheet and on the keyboard.
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano1.jpg?raw=true "Piano sketch")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Piano1.jpg?raw=true "Piano sketch")
 
 The colour highlighting the key depends on the note's length. 
 The shortest beat a note is, the more vivid the colour will be. 
@@ -90,24 +90,24 @@ To let another piece of paper in colour pass through the two sheets, they should
 In order to make my prototype a minimum realistic, I started by measuring the size of the piano keys, before drawing them on the first paper sheet.
 I let a little space between each key to make them recognizable once cut.
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano2.jpg?raw=true "Piano drawing")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Piano2.jpg?raw=true "Piano drawing")
 
 Then, I cut the paper following the guidelines I draw :
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano3.jpg?raw=true "Paper cut and black keys")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Piano3.jpg?raw=true "Paper cut and black keys")
 
 Next, I glued the first sheet of paper on the second one, but I let space on top of the keys.
 Because it is easier to control the colour sheet from the side the most further away from the key, without troubling the player.
 I added the black keys for realism, but without making them playable since some songs can be played only with the white keys.
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano4.jpg?raw=true "Papers joined")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Piano4.jpg?raw=true "Papers joined")
 
 Finally, I cut two long paper sheets of the width of one key notes, in order to simulate the highlighting of the application.
 My prototype was now ready to be used !
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano5.jpg?raw=true "Prototype")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Piano5.jpg?raw=true "Prototype")
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Piano6.gif?raw=true "Prototype")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Piano6.gif?raw=true "Prototype")
 
 
 # User Evaluation
@@ -119,13 +119,13 @@ To simulate the sound of a piano, I used the online keyboard available on imusic
 First, we made the test with only one colour sheet, but i had to look at the partition, move the sheet and play the note on the online keyboard at the same time. 
 I was too slow for the user. 
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Video2.gif?raw=true "Prototype")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Video2.gif?raw=true "Prototype")
 
 
 So, I decided to only put the colour sheet on top of the notes as shown below.
 With this technique I tried to use both colour sheets, but I was still too slow for the user.
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture3/Video1.gif?raw=true "Prototype")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture3/Video1.gif?raw=true "Prototype")
 
 
 The user had some useful feedbacks.

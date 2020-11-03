@@ -2,7 +2,7 @@
 title: "Lecture 2"
 date: 2020-10-04T19:55:25+02:00
 draft: false
-featured_image: "https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture2/IvanSutherland.JPG?raw=true"
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture2/IvanSutherland.JPG?raw=true"
 ---
 
 Hello everyone !
@@ -11,7 +11,7 @@ Today, I learned more about the research around Human Computer Interaction, here
 
 # HCI Researcher : Meredith Ringel Morris
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture2/merrie_morris.jpg?raw=true "")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture2/merrie_morris.jpg?raw=true "")
 
 I chose to talk about the researcher Meredith Ringel Morris. 
 I found her thanks to the Microsoft site, where there is an article about one of her papers. 
@@ -41,7 +41,7 @@ This paper will help future researchers to understand the divides coming from th
 
 # The Ultimate Display from Evan E. Sutherland
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture2/IvanSutherland.JPG?raw=true "")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture2/IvanSutherland.JPG?raw=true "")
 
 In this paper, Evan Sutherland talks about the interesting 1960s' displays, which he thinks will be developed in the future, and on top of that, he even predicts new displays that we use today. 
 
@@ -65,7 +65,7 @@ However, even if some companies took the risk to use the eyes' glance as a "mous
 
 # Input Devices and Interaction Paradigms
 
-![alt Text](https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lecture2/Ring.jpg?raw=true "")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lecture2/Ring.jpg?raw=true "")
 
 The Ring by Logbar is a wearable input device aim to control payments, texting, or any other parameter from another connected device, through hand gestures. The product was showed for the first time at the Consumer Electronics Show in Las Vegas in 2015.
 A button in the side of the ring enables the user to signal the hardware that it will make a gesture, and with an application on your phone you can configure the gestures you want to do. 

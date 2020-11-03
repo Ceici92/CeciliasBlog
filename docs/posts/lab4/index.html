@@ -68,7 +68,7 @@ I exported my Roll a ball project assets, and imported it in my VRTK project :"/
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR5.JPG?raw=true');">
+  <header class="cover bg-top" style="background-image: url('https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR5.JPG?raw=true');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -173,17 +173,17 @@ I exported my Roll a ball project assets, and imported it in my VRTK project :"/
 <p>Today, I created my first VR application for Oculus Quest. I modified my Roll a Ball game to work in VR.</p>
 <p>First, I downloaded the VRTK project from VRTK4&rsquo;s Github, in order to use some of its packages.
 I changed the project settings as followed :</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR1.png?raw=true" alt="alt Text" title="">
-<img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR2.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR1.png?raw=true" alt="alt Text" title="">
+<img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR2.png?raw=true" alt="alt Text" title=""></p>
 <p>Then, still in the VRTK project, I imported the Oculus Integration package.</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR3.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR3.png?raw=true" alt="alt Text" title=""></p>
 <p>I exported my Roll a ball project assets, and imported it in my VRTK project :</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR6.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR6.png?raw=true" alt="alt Text" title=""></p>
 <p>Since we do not use UnityEngine.InputSystem in the VRTK project, I had to comment every part of my scripts that used it.
 When the errors vanished, I set up the environment.</p>
 <p>I deleted the camera, created a floor, a table, and the Empty GameObject for the non-interactable objects.
 I added a box collider to my Roll a Ball object, and created two new layers for this object and its children.</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR5.JPG?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR5.JPG?raw=true" alt="alt Text" title=""></p>
 <p>Unfortunately, my project was to heavy for my computer and made it very slow.</p>
 <p>So, I tried to follow another guide from the VRTK website, describing the essential packages to import.
 However, it did not work because the guide used a 2018 package that was missing a lot of components regarding the OVR Camera.</p>
@@ -191,33 +191,33 @@ However, it did not work because the guide used a 2018 package that was missing 
 Also, I only downloaded the necessary components from the Oculus Integration package, I left out the example scene, the avatar models, the shared assets and the Spatializer scenes.
 It worked, I could continue to build game with a functional computer !</p>
 <p>I added the OVRCameraRig to the scene and set its origin to the ground.</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR6bis.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR6bis.png?raw=true" alt="alt Text" title=""></p>
 <p>I added the component Linked Alias Association Collection (which was missing in the 2018 VRTK packages) to the OVRCameraRig.</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR7.png?raw=true" alt="alt Text" title="Linked Alias"></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR7.png?raw=true" alt="alt Text" title="Linked Alias"></p>
 <p>The Left Hand and Right Hand Anchors got the OVRControllerPrefab, with the right parameters : L and R touch controller.</p>
 <p>I added TrackedAlias to the scene, put its size to 1 and dragged the OVRCameraRig to the slot.</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR7bis.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR7bis.png?raw=true" alt="alt Text" title=""></p>
 <p>TrackedAlias got an Interactor, as a child of the Left and the Right Controller Aliases.</p>
 <p>I created an empty GameObject : LeftTriggerAxis, with the component Unity Axis 1D Action, and the Axis Name VRTK_Axis9_LeftTrigger (found on the InputManager of the Project Settings).</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR8.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR8.png?raw=true" alt="alt Text" title=""></p>
 <p>I created another GameObject : LeftTriggerPressed, and added to it the Float to Boolean and Boolean Action components.</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR9.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR9.png?raw=true" alt="alt Text" title=""></p>
 <p>I did the same for the right.</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR10.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR10.png?raw=true" alt="alt Text" title=""></p>
 <p>Then, in Interactor I completed the slots with the LeftTriggerPressed and the LeftControllerAlias; and repeated it for the right.</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR11.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR11.png?raw=true" alt="alt Text" title=""></p>
 <p>To be able to interact with my Roll a Ball as a virtual object, I added the Interactable.Primary_Grab to the scene, and placed the Roll a Ball in its Meshes.</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR12.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR12.png?raw=true" alt="alt Text" title=""></p>
 <p>In order to add physics to this virtual object, I set up the Velocity Tracker in the OVRCameraRig.
 I copied the OVRAnchorVelocityEstimator from the VRTK Github, and added it to the Linked Alias Association Collection.
 I added as its components the CenterEye, the LeftHand and the RightHand Anchores, and set their references :</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR13.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR13.png?raw=true" alt="alt Text" title=""></p>
 <p>I added UI :</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR14.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR14.png?raw=true" alt="alt Text" title=""></p>
 <p>Finally, I build and run my project on an Oculus Quest using Oculus link :</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR15.png?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR15.png?raw=true" alt="alt Text" title=""></p>
 <p>It did not work, my scene stayed black in Virtual Reality, I could only see the limits of my guardian :</p>
-<p><img src="https://github.com/Ceici92/HugoBlog/blob/master/docs/images/Lab4/VR16.gif?raw=true" alt="alt Text" title=""></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab4/VR16.gif?raw=true" alt="alt Text" title=""></p>
 <p>I tried to follow again every step of the guide to see if I missed something, but I did not.</p>
 <p>Since the Oculus Application alerted me that my graphic card was not powerful enough for a VR game, I tried to run the application on another computer, but it still did not worked.</p>
 <p>The problem could also come for the fact that I did not download all the components of the VRTK project and the Oculus Integration project.

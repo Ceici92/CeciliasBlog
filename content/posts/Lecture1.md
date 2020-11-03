@@ -45,7 +45,7 @@ The human brain tends to group elements with the same characteristics, and think
 For example, in this picture the ground has the same black strip than the stairs. 
 Therefore, on a first glance we group this part of the ground as the last step of the stairs.  
 
-![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab1/Bad-stair-design.jpg?raw=true "Bad designed stairs")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab1/Bad-stair-design.jpg?raw=true "Bad designed stairs")
 *From Landash's post on Reddit*
 
 I suppose that the purpose was to warn the user of the presence of stairs. 
@@ -59,7 +59,7 @@ In this ad, the last left line was supposed to say that the masks were protectiv
 However, since this adjective is aligned with the pejorative ones on top, we reed it as : "not protective".
 Furthermore, the principle of proximity can also be identified here.
 
-![alt Text](https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Lab1/Masks.jpg?raw=true "Bad designed masks' box")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab1/Masks.jpg?raw=true "Bad designed masks' box")
 *From CrappyDesign's post on Reddit*
 
 To correct the ad, the last adjective could be put on top or on the right down corner of the box.
