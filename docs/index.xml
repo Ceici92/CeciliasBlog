@@ -33,6 +33,19 @@ As we can see on this image from the HCI lesson, from the 1990 to 2000 smartphon
     </item>
     
     <item>
+      <title>Beach Platform on Unity</title>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/postunity/</link>
+      <pubDate>Wed, 21 Oct 2020 17:39:43 +0200</pubDate>
+      
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/postunity/</guid>
+      <description>Hello everyone!
+For the Unity class, I made my own Platformer Game, following Lea&amp;rsquo;s lessons and some youtube tutorials.
+Moving Platforms First, I learn how to create a moving platform.
+I created a platform, with a RigidBody and a Box Collider.
+In order to make it move, I first used an animator, and defined its movement. However, even with a velocity script, my character could not move once he was on the platform.</description>
+    </item>
+    
+    <item>
       <title>Lecture 3</title>
       <link>https://Ceici92.github.io/CeciliasBlog/posts/lecture3/</link>
       <pubDate>Thu, 15 Oct 2020 12:06:32 +0200</pubDate>
