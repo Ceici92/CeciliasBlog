@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Beach Platform on Unity | Cecilia&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.75.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="https://Ceici92.github.io/CeciliasBlog/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Beach Platform on Unity" />
+<meta property="og:description" content="Hello everyone!
+For the Unity class, I made my own Platformer Game, following Lea&rsquo;s lessons and some youtube tutorials.
+Moving Platforms First, I learn how to create a moving platform.
+I created a platform, with a RigidBody and a Box Collider.
+In order to make it move, I first used an animator, and defined its movement. However, even with a velocity script, my character could not move once he was on the platform." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Ceici92.github.io/CeciliasBlog/posts/postunity/" />
+<meta property="article:published_time" content="2020-10-21T17:39:43+02:00" />
+<meta property="article:modified_time" content="2020-10-21T17:39:43+02:00" />
+<meta itemprop="name" content="Beach Platform on Unity">
+<meta itemprop="description" content="Hello everyone!
+For the Unity class, I made my own Platformer Game, following Lea&rsquo;s lessons and some youtube tutorials.
+Moving Platforms First, I learn how to create a moving platform.
+I created a platform, with a RigidBody and a Box Collider.
+In order to make it move, I first used an animator, and defined its movement. However, even with a velocity script, my character could not move once he was on the platform.">
+<meta itemprop="datePublished" content="2020-10-21T17:39:43+02:00" />
+<meta itemprop="dateModified" content="2020-10-21T17:39:43+02:00" />
+<meta itemprop="wordCount" content="844">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Beach Platform on Unity"/>
+<meta name="twitter:description" content="Hello everyone!
+For the Unity class, I made my own Platformer Game, following Lea&rsquo;s lessons and some youtube tutorials.
+Moving Platforms First, I learn how to create a moving platform.
+I created a platform, with a RigidBody and a Box Collider.
+In order to make it move, I first used an animator, and defined its movement. However, even with a velocity script, my character could not move once he was on the platform."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-light-yellow">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-dark-gray">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://Ceici92.github.io/CeciliasBlog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Cecilia&#39;s Blog
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://Ceici92.github.io/CeciliasBlog/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://Ceici92.github.io/CeciliasBlog/posts/postunity/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://Ceici92.github.io/CeciliasBlog/posts/postunity/&amp;text=Beach%20Platform%20on%20Unity" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://Ceici92.github.io/CeciliasBlog/posts/postunity/&amp;title=Beach%20Platform%20on%20Unity" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Beach Platform on Unity</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-10-21T17:39:43+02:00">October 21, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hello everyone!</p>
+<p>For the Unity class, I made my own Platformer Game, following Lea&rsquo;s lessons and some youtube tutorials.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/BeachPlatform.gif?raw=true" alt="alt Text" title="GAME"></p>
+<h2 id="moving-platforms">Moving Platforms</h2>
+<p>First, I learn how to create a moving platform.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/MovingPlatform.gif?raw=true" alt="alt Text" title="Moving Platform GIF"></p>
+<p>I created a platform, with a RigidBody and a Box Collider.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/MovingPlatform.JPG?raw=true" alt="alt Text" title="Moving Platform"></p>
+<p>In order to make it move, I first used an animator, and defined its movement.
+However, even with a velocity script, my character could not move once he was on the platform.</p>
+<p>I found another technique with a script, that I find easier to modify.
+Asyou can see below, I define how many points I want the platform to go to, then I enter their location and I define the speed, and the delay to go there.
+I found it is easier to modify the movement with this technique.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/MovementPlatformParameters.JPG?raw=true" alt="alt Text" title="Moving Platform"></p>
+<p>Once that the platform was moving, the issue was that my player was not moving with it.
+So I added a Triggered Box Collider to the platform. I made it a little taller than the platform, in order to be touched by the character on it.
+And Ta Da my character moves with the platform !</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/MovingPlatform.gif?raw=true" alt="alt Text" title="Moving Platform Gif"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/MovingPlatformScript1.JPG?raw=true" alt="alt Text" title="Moving Platform"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/MovingPlatformScript2.JPG?raw=true" alt="alt Text" title="Moving Platform"></p>
+<h2 id="slippering-floor-and-bouncing-balls">Slippering Floor and Bouncing Balls</h2>
+<p>Then, I made a slippery floor, using a physic material.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/SlipperyFloor.gif?raw=true" alt="alt Text" title="Slippery Floor Gif"></p>
+<p>I lowered all its friction, and added it to my floor.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/SlipperyFloor.JPG?raw=true" alt="alt Text" title="Slippery Floor">
+<img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/Slippery.JPG?raw=true" alt="alt Text" title="Slippery"></p>
+<p>With the same technique, I created my bouncy balls.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/BouncyBalls2.gif?raw=true" alt="alt Text" title="Bouncy Ball Gif "></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/BouncyBall.JPG?raw=true" alt="alt Text" title="Bouncy Ball"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/SuperBouncy.JPG?raw=true" alt="alt Text" title="Super Bouncy"></p>
+<h2 id="falling-chairs">Falling Chairs</h2>
+<p>Moreover, I added falling platforms, represented as chairs.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/FallingChairs.gif?raw=true" alt="alt Text" title="Falling Chairs Gif"></p>
+<p>To do so, I created the plateforms, added them 2 box collider with one Triggered to interact with the player.
+I used the script below to make them fall (by being sensitive to gravity) if the player went on them, and added a delay, to make them only fall after 1 second.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/FallingChairs.JPG?raw=true" alt="alt Text" title="Falling Chairs">
+<img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/FallingPlatform.JPG?raw=true" alt="alt Text" title="Falling Platform"></p>
+<p>The most difficult part was to respawn them after falling on the Death Wall.</p>
+<p>I had to change the script of the Death Wall, and use a prefab to make it appear again.
+To make the prefab appear, I used &ldquo;Instantiate&rdquo; and a respawnPoint to define its position.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/DeathWallScript1.JPG?raw=true" alt="alt Text" title="Death Wall Script 1"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/DeathWallScript1.JPG?raw=true" alt="alt Text" title="Death Wall Script 2"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/DeathWall.JPG?raw=true" alt="alt Text" title="Death Wall"></p>
+<p>As you can see, for each falling chair there is a respawn point slot, but also a prefab !
+Because to diferenciate them in the code, I gave each one a tab : &ldquo;Chair1&rdquo;, &ldquo;Chair2&rdquo; and &ldquo;Chair3&rdquo;.
+This way I can make them reapear in different locations, with always the same tab (that is why I needed three prefabs).</p>
+<h2 id="collectibles--umbrellas">Collectibles : Umbrellas</h2>
+<p>Furthemore, I added collectibles, represented as umbrellas.
+Once the player goes on them, they disappear.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/Collectible.gif?raw=true" alt="alt Text" title="Collectible Gif ">
+<img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/CollectScript.JPG?raw=true" alt="alt Text" title="CollectScript"></p>
+<p>The player also has to collect a fixed number of umbrellas to win.
+Therefore, the number of umbrellas collected is used for the wining platform and the win text.
+To do so, I created the empty object &ldquo;Scene Manager&rdquo; with the following script we saw in class :</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/PlatformerSceneManager.JPG?raw=true" alt="alt Text" title="PlatformerSceneManager"></p>
+<p>In the script associated to the wining platform, I used the Platformer Scene Manager to verify the number of umbrellas collected :</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/FinalScript.JPG?raw=true" alt="alt Text" title="FinalScript"></p>
+<p>And I used another script on the final platform to detect the player presence, and make the platform change its colors :</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/TriggerScript.JPG?raw=true" alt="alt Text" title="Trigger Script"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/VictoryPlatform.gif?raw=true" alt="alt Text" title="Victory Platform Gif"></p>
+<h2 id="the-menu">The Menu</h2>
+<p>Moreover, I added a Quit and Restart Button.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/Menu.JPG?raw=true" alt="alt Text" title="Menu"></p>
+<p>To do so, I created the two buttons.
+Their OnClick() functions are directed by the empty game object Menu and its script.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/QuitButton.JPG?raw=true" alt="alt Text" title="Quit Button"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/MenuScript.JPG?raw=true" alt="alt Text" title="Menu Script"></p>
+<h2 id="timer">Timer</h2>
+<p>As you have seen, I added a Timer by creating a Timer Text, and controlling it from the Timer Script of the UI Game Object :</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/UI.JPG?raw=true" alt="alt Text" title="UI"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/TimerScript.JPG?raw=true" alt="alt Text" title="Timer Script"></p>
+<p>As you can see, the timer shows the time thanks to the parameter Time.deltaTime, and stops when the game is finished, so when the Victory Text is set to congratulations :</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/VictoryPlatform.gif?raw=true" alt="alt Text" title="Victory Platform Gif"></p>
+<h2 id="the-characters-animation">The Character&rsquo;s Animation</h2>
+<p>Finally, I animated the character I made on Blender.</p>
+<p>I used Mixamo to download 4 animations of my character : idle, walking, running, and jumping.
+I created an animator on my character, and used the Animator window to create my animation.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/Character.JPG?raw=true" alt="alt Text" title="Character "></p>
+<p>A blend tree is really usefull, we need less code, and variables to animate the character.
+Indeed, I only needed at the end the speed and the direction variable.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/AnimatorIdle.JPG?raw=true" alt="alt Text" title="Animator ">
+<img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/BlendTree.JPG?raw=true" alt="alt Text" title="BlendTree "></p>
+<p>Each rectangle represents a state.
+On the left, I defined the necessary parameters for the transitions. (Some are not used because they come from previous tests)</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/Animator.JPG?raw=true" alt="alt Text" title="Animator "></p>
+<p>Of course, I still needed to modify my CharacterController.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/CharacterController1.JPG?raw=true" alt="alt Text" title="Character Controller"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/CharacterController2.JPG?raw=true" alt="alt Text" title="Character Controller"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/CharacterController3.JPG?raw=true" alt="alt Text" title="Character Controller"></p>
+<p>The traps I fell in were to forget to activate the loop on my animations (in the downloaded animations), to modify the entries of my character controller, and to only activate the Exit Time after the jumps.
+(Because it is the only animations that needs to be finished, before starting another.)</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/LoopTime.JPG?raw=true" alt="alt Text" title="Loop Time"></p>
+<p>I also put the camera in the hierarchy of my character, in order to follow the player when it moves.
+There is also the empty object Player, present in the hierarchy of the character in order to follow it.
+Since the camera is pointing the Player, we can easily controll what we will see with the camera by moving the relative location of the Player.</p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/Camera.JPG?raw=true" alt="alt Text" title="Camera Controller"></p>
+<p><img src="https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/CameraScript.JPG?raw=true" alt="alt Text" title="Camera Controller"></p>
+<p>Bonus :</p>
+<p>To add a little life to my game, I used assets from free3d : beach balls, beach chairs, umbrellas, surfboards, Plamtrees, sand material, and even a waterfall !</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-dark-gray bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://Ceici92.github.io/CeciliasBlog" >
+    &copy;  Cecilia's Blog 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="https://Ceici92.github.io/CeciliasBlog/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
