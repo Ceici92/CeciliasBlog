@@ -104,7 +104,7 @@ It worked ! The file could now be previsualised in git, it means that it can now
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab3/Lab3.gif?raw=true "Video")
 
-I also noticed that to easily modify a recurrent coding issue on Visual Studio I can use Cytl + H for 1 file, or Ctrl + Maj + H for all the opened files.
+I also noticed that to easily modify a recurrent coding issue on Visual Studio, I can use Cytl + H for 1 file, or Ctrl + Maj + H for all the opened files.
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Lab1/CtrlMajH.JPG?raw=true "Raccourcis Clavier")
 
