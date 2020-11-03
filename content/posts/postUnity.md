@@ -1,7 +1,7 @@
 ---
 title: "Beach Platform on Unity"
 date: 2020-10-21T17:39:43+02:00
-draft: fale
+draft: false
 featuring_image: "https://github.com/Ceici92/HugoBlog3/blob/master/docs/images/Unity/BeachPlatform.gif?raw=true"
 ---
 
