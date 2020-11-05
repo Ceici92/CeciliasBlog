@@ -2,6 +2,7 @@
 title: "AR Foundation on Unity"
 date: 2020-11-05T11:42:24+01:00
 draft: false
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/AR/ARFoundations/TestAR.gif?raw=true"
 ---
 
 Hi !
