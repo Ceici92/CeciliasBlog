@@ -8,6 +8,20 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Oct 2020 17:46:19 +0100</lastBuildDate><atom:link href="https://Ceici92.github.io/CeciliasBlog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AR Foundation on Unity</title>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/arfoundations/</link>
+      <pubDate>Thu, 05 Nov 2020 11:42:24 +0100</pubDate>
+      
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/arfoundations/</guid>
+      <description>Hi !
+In this post I descibed how I made a simple AR application with image recognition.
+I started by looking at tutorials on how to use AR on Unity.
+I followed the tutorial on Unity learn : https://learn.unity.com/tutorial/configuring-unity-for-ar-development-2019-3?language=en#5e623ad9edbc2a0020cf8224
+And this video, because it talked about Image recognition, an aspect we will need for our project : https://www.youtube.com/watch?v=9qErhhxoEVY
+To put in place all the components needed for an AR project, I followed first Unity Learn.</description>
+    </item>
+    
+    <item>
       <title>Lab 4</title>
       <link>https://Ceici92.github.io/CeciliasBlog/posts/lab4/</link>
       <pubDate>Fri, 30 Oct 2020 19:46:28 +0100</pubDate>
