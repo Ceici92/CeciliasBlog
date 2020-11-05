@@ -7,20 +7,18 @@ featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images
 
 Hi !
 
-In this post I descibed how I made a simple AR application with image recognition.
+In this post I describe how I made a simple AR application with image recognition.
 
 
 I started by looking at tutorials on how to use AR on Unity.
-
-I followed the tutorial on Unity learn :
+First, I followed the tutorial on Unity learn, to set up my project for AR :
 https://learn.unity.com/tutorial/configuring-unity-for-ar-development-2019-3?language=en#5e623ad9edbc2a0020cf8224
-
-And this video, because it talked about Image recognition, an aspect we will need for our project :
+And then this video, because it talked about Image recognition an aspect we will need for our project :
 https://www.youtube.com/watch?v=9qErhhxoEVY
 
 
-To put in place all the components needed for an AR project, I followed first Unity Learn.
-I started by switching my project to Android, and modify the Player Settings -> Other Settings :
+Si I started to put in place all the components needed for an AR project shown on Unity Learn.
+I switched my project to Android, and modified the Player Settings -> Other Settings :
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/AR/ARFoundations/ProjectSettings.png?raw=true "ProjSettings")
  
 
@@ -56,17 +54,19 @@ Then, I saved it as a prefab, deleted the object, and put the prefab as the Trac
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/AR/ARFoundations/ARSphere.png?raw=true "ARSphere")
 
 
-Finally, in the Player settings we have some modifications to make.
-We have to remove Vulkan, since it is not supported by AR Core.
-To uncheck Multithread rendering, and have at least Android 8.0 to make AR Core work.
-In Configuration, put Install Location to Automatic, and Filter Touches unchecked :
+Finally, in the Player settings I had some modifications to make.
+I removed Vulkan because it is not supported by AR Core.
+I unchecked Multithread rendering, and verified I at least selected Android 8.0 to make AR Core work.
+In Configuration, I put Install Location to Automatic, and Filter Touches to unchecked :
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/AR/ARFoundations/ProjectSettings3.png?raw=true "ProjectSettings3")
 
 
 
 I tested it on my Android !
+
 To do so, I build the apk, put it on my phone, and installed it.
+
 I could also have connected my phone to my computer, selected it as the running device, enabled the debugging on my phone, and built it. But since my project will be about Street Art, it is better to have an application.
  
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/AR/ARFoundations/Build.png?raw=true "Build")
@@ -75,7 +75,7 @@ I could also have connected my phone to my computer, selected it as the running 
 
 
 
-The next step is to try it with an animated AR obbject instead of the sphere !
+The next step is to replace the sphere with an animated AR object ! 
 
 
 
