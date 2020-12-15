@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Oct 2020 17:15:58 +0100</lastBuildDate><atom:link href="https://Ceici92.github.io/CeciliasBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Reinforcement Learning : Part 1</title>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/rl_1/</link>
+      <pubDate>Tue, 15 Dec 2020 14:59:24 +0100</pubDate>
+      
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/rl_1/</guid>
+      <description>In this post I will explain one of the laboratories I did this year about Reinforcement Learning. During this lab, we used a python code on Google Collab to manipulate a deep reinforcement learning network to solve the CartPole game : a game where a hammer must not fall.
+In this first part, I am going to explain the different functions of the model, and in the seconf part in the next post, I will explain what I changed in the model to see the impact of the different parameters.</description>
+    </item>
+    
+    <item>
       <title>AR Foundation on Unity</title>
       <link>https://Ceici92.github.io/CeciliasBlog/posts/arfoundations/</link>
       <pubDate>Thu, 05 Nov 2020 11:42:24 +0100</pubDate>
