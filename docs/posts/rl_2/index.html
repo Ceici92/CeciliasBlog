@@ -40,7 +40,7 @@ Part 2 : Manipulations First test I conducted a first training with the basic fo
 And I looked at the first results without changing any of those parameters :">
 <meta itemprop="datePublished" content="2020-12-15T18:14:31+01:00" />
 <meta itemprop="dateModified" content="2020-12-15T18:14:31+01:00" />
-<meta itemprop="wordCount" content="663">
+<meta itemprop="wordCount" content="662">
 
 
 
@@ -62,7 +62,7 @@ And I looked at the first results without changing any of those parameters :"/>
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://github.com/Ceici92/RL_1/VideoHammer.gif?raw=true');">
+  <header class="cover bg-top" style="background-image: url('https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Part2.png?raw=true');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -168,11 +168,11 @@ I presented the reinforcement learning model in the previous post, and here I am
 <h1 id="part-2--manipulations">Part 2 : Manipulations</h1>
 <h2 id="first-test">First test</h2>
 <p>I conducted a first training with the basic following parameters :</p>
-<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstTest.png?raw=true" alt="alt Text" title="First Test"></p>
-<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstTest2.png?raw=true" alt="alt Text" title="First Test 2"></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstStep.png?raw=true" alt="alt Text" title="First Test"></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstStep2.png?raw=true" alt="alt Text" title="First Test 2"></p>
 <p>And I looked at the first results without changing any of those parameters :</p>
-<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstTest3.png?raw=true" alt="alt Text" title="First Test 3"></p>
-<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstTest3.png?raw=true" alt="alt Text" title="First Test 4"></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstStep3.png?raw=true" alt="alt Text" title="First Test 3"></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstStep4.png?raw=true" alt="alt Text" title="First Test 4"></p>
 <p>The loss varies a lot, because the training dataset is changing over time. If we look at the score, it seems stable around 12.</p>
 <h2 id="the-training-algorithm">The Training Algorithm</h2>
 <p>To observe the impact of the training algorithm on the results, I changed it to Sarsa and conducted another evaluation :</p>
@@ -198,7 +198,7 @@ Therefore, I augmented the width of the network to 128. Besides, I diminished th
 <h2 id="the-reward-function">The Reward Function</h2>
 <p>I augmented the batch size of the Experience Replays to try to improve the results.
 Then, I changed the reward function as following :
-<img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward.png?raw=true" alt="alt Text" title="Reward"></p>
+<img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward1.png?raw=true" alt="alt Text" title="Reward"></p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward2.png?raw=true" alt="alt Text" title="Reward2"></p>
 <p>The system starts with low scores and improves until reaching a score around 50, before fluctuating a lot, and going down to a score of 20.</p>
 <p>I conducted another evaluation with exactly the same parameters.
@@ -217,10 +217,9 @@ The system does not success in reaching a higher score than 30, because it does 
 This is why training the model only each 3 iterations, enables the system to gather more data before training, and therefore to improve its choices.</p>
 <h2 id="the-activation-function">The Activation Function</h2>
 <p>Finally, I changed the activation function from Sigmoid to LeakyRelu, to see the impact on the system :</p>
-<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF.png?raw=true" alt="alt Text" title="ActivationF"></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF2.png?raw=true" alt="alt Text" title="ActivationF"></p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF2.png?raw=true" alt="alt Text" title="ActivationF2">
 <img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF3.png?raw=true" alt="alt Text" title="ActivationF3"></p>
-<p><a href="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF.png">https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF.png</a></p>
 <p>The results are not better, it is the contrary : the score fluctuates from 25 to 15.
 Therefore the Sigmoid function seems more suited for this model.</p>
 <p>We could also change the value of the epsilon to observe the influence of the amount of exploration on the performances of the system.</p>

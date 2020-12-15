@@ -2,7 +2,7 @@
 title: "Reinforcement Learning : Part 2"
 date: 2020-12-15T18:14:31+01:00
 draft: false
-featured_image: "https://github.com/Ceici92/RL_1/VideoHammer.gif?raw=true"
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Part2.png?raw=true"
 ---
 
 This post is the second part of my work for the Reinforcement Learning labaratory.
@@ -14,15 +14,15 @@ I presented the reinforcement learning model in the previous post, and here I am
 
 I conducted a first training with the basic following parameters :
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstTest.png?raw=true "First Test")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstStep.png?raw=true "First Test")
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstTest2.png?raw=true "First Test 2")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstStep2.png?raw=true "First Test 2")
 
 And I looked at the first results without changing any of those parameters :
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstTest3.png?raw=true "First Test 3")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstStep3.png?raw=true "First Test 3")
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstTest3.png?raw=true "First Test 4")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/FirstStep4.png?raw=true "First Test 4")
 
 
 The loss varies a lot, because the training dataset is changing over time. If we look at the score, it seems stable around 12.
@@ -70,7 +70,7 @@ The loss is also smaller :
 
 I augmented the batch size of the Experience Replays to try to improve the results.
 Then, I changed the reward function as following :
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward.png?raw=true "Reward")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward1.png?raw=true "Reward")
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward2.png?raw=true "Reward2")
 
@@ -106,12 +106,10 @@ This is why training the model only each 3 iterations, enables the system to gat
 
 Finally, I changed the activation function from Sigmoid to LeakyRelu, to see the impact on the system :
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF.png?raw=true "ActivationF")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF2.png?raw=true "ActivationF")
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF2.png?raw=true "ActivationF2")
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF3.png?raw=true "ActivationF3")
-
-https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF.png
 
 The results are not better, it is the contrary : the score fluctuates from 25 to 15. 
 Therefore the Sigmoid function seems more suited for this model.

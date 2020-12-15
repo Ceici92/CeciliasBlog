@@ -2,7 +2,7 @@
 title: "Reinforcement Learning : Part 1"
 date: 2020-12-15T14:59:24+01:00
 draft: false
-featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/CeciliasBlog/blob/master/docs/images/RL_1/VideoHammer.gif?raw=true"
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Part1.png?raw=true?raw=true"
 ---
 
 In this post I will explain one of the laboratories I did this year about Reinforcement Learning. 
