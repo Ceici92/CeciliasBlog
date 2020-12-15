@@ -28,14 +28,14 @@
     
     <meta property="og:title" content="Reinforcement Learning : Part 1" />
 <meta property="og:description" content="In this post I will explain one of the laboratories I did this year about Reinforcement Learning. During this lab, we used a python code on Google Collab to manipulate a deep reinforcement learning network to solve the CartPole game : a game where a hammer must not fall.
-In this first part, I am going to explain the different functions of the model, and in the seconf part in the next post, I will explain what I changed in the model to see the impact of the different parameters." />
+In this first part, I am going to explain the different functions of the model, and in the second part in the next post, I will explain what I changed in the model to see the impact of the different parameters." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Ceici92.github.io/CeciliasBlog/posts/rl_1/" />
 <meta property="article:published_time" content="2020-12-15T14:59:24+01:00" />
 <meta property="article:modified_time" content="2020-12-15T14:59:24+01:00" />
 <meta itemprop="name" content="Reinforcement Learning : Part 1">
 <meta itemprop="description" content="In this post I will explain one of the laboratories I did this year about Reinforcement Learning. During this lab, we used a python code on Google Collab to manipulate a deep reinforcement learning network to solve the CartPole game : a game where a hammer must not fall.
-In this first part, I am going to explain the different functions of the model, and in the seconf part in the next post, I will explain what I changed in the model to see the impact of the different parameters.">
+In this first part, I am going to explain the different functions of the model, and in the second part in the next post, I will explain what I changed in the model to see the impact of the different parameters.">
 <meta itemprop="datePublished" content="2020-12-15T14:59:24+01:00" />
 <meta itemprop="dateModified" content="2020-12-15T14:59:24+01:00" />
 <meta itemprop="wordCount" content="1169">
@@ -46,7 +46,7 @@ In this first part, I am going to explain the different functions of the model, 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Reinforcement Learning : Part 1"/>
 <meta name="twitter:description" content="In this post I will explain one of the laboratories I did this year about Reinforcement Learning. During this lab, we used a python code on Google Collab to manipulate a deep reinforcement learning network to solve the CartPole game : a game where a hammer must not fall.
-In this first part, I am going to explain the different functions of the model, and in the seconf part in the next post, I will explain what I changed in the model to see the impact of the different parameters."/>
+In this first part, I am going to explain the different functions of the model, and in the second part in the next post, I will explain what I changed in the model to see the impact of the different parameters."/>
 
 	
   </head>
@@ -57,8 +57,10 @@ In this first part, I am going to explain the different functions of the model, 
    
   
 
-  <header>
-    <div class="bg-dark-gray">
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/CeciliasBlog/blob/master/docs/images/RL_1/VideoHammer.gif?raw=true');">
+    <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="https://Ceici92.github.io/CeciliasBlog/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -100,6 +102,12 @@ In this first part, I am going to explain the different functions of the model, 
   </div>
 </nav>
 
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Reinforcement Learning : Part 1</h1>
+          
+        
+      </div>
     </div>
   </header>
 
@@ -156,11 +164,11 @@ In this first part, I am going to explain the different functions of the model, 
 During this lab, we used a python code on Google Collab
 to manipulate a deep reinforcement learning network to solve the CartPole game :
 a game where a hammer must not fall.</p>
-<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/VideoHammer.gif?raw=true" alt="alt Text" title="Video Hammer Game"></p>
-<p>In this first part, I am going to explain the different functions of the model, and in the seconf part in the next post, I will explain what I changed in the model to see the impact of the different parameters.</p>
-<h2 id="part-1--presentation-of-the-model">Part 1 : Presentation of the model</h2>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Hammer.JPG?raw=true" alt="alt Text" title="Hammer Game"></p>
+<p>In this first part, I am going to explain the different functions of the model, and in the second part in the next post, I will explain what I changed in the model to see the impact of the different parameters.</p>
+<h1 id="part-1--presentation-of-the-model">Part 1 : Presentation of the model</h1>
 <p>First, we have the imports of the different objects needed to create our model. For example, gym is for the simulation of the Cart Pole game, and numpy is for the big amount of data used.</p>
-<h3 id="the-qnetwork">The QNetwork</h3>
+<h2 id="the-qnetwork">The QNetwork</h2>
 <p>The second Class creates the QNetwork used to implement the Qvalues of the model :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/QNetwork.png?raw=true" alt="alt Text" title="QNetwork"></p>
 <p>We can already identify some parameters we will be able to manipulate : the width of the network (here at 64), the activation function set at sigmoid, and the number of hidden layers.</p>
@@ -173,14 +181,14 @@ However, contrarily to a supervised network, the output of the layers is the sco
 <p>Then, the model is printed to verify that there is no problem, along with it results for 10 random states from the gym dataset :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/QNetworkTest.png?raw=true" alt="alt Text" title="QNetwork test"></p>
 <p>We observe that the results are given in a matrix with two columns, each represents the qvalue of an action, and as we can see the action 1 is often the best because its qvalues are higher.</p>
-<h3 id="the-doer">The Doer</h3>
+<h2 id="the-doer">The Doer</h2>
 <p>The Doer is the part of the agent that acts : it takes the qnetwork, evaluates it on an input state and decides which action the agent should keep in function of the output qvalues of the network.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Doer.png?raw=true" alt="alt Text" title="Doer"></p>
 <p>One of its parameters is the epsilon set at 10%, it indicates the amount of time where the Doer behaves randomly.
 It designates the amount of exploration the model will do.</p>
 <p>Then we test the Doer, and see that it choses the accurate action with the higher qvalue :
 <img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/DoerTest.png?raw=true" alt="alt Text" title="Doer test"></p>
-<h3 id="the-experience-replay">The Experience Replay</h3>
+<h2 id="the-experience-replay">The Experience Replay</h2>
 <p>This function encapsulates all the relevant data from the agent transitions : St (the previous state), At (the previous action), Rt (the reward), St+1 (the current state), and At+1 (the current action).</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/ExpReplay.png?raw=true" alt="alt Text" title="Experience Replay"></p>
 <p>This function encapsulates all the relevant data from the agent transitions : St (the previous state), At (the previous action), Rt (the reward), St+1 (the current state), and At+1 (the current action).
@@ -195,7 +203,7 @@ The SortTransition defines, when the batch is full, if the system removes the ol
 <p>In the sampleBatch method the system designates which transitions in the batch it will choose to train the network, in function of the parameters chosen previously.</p>
 <p>To see how the class works, we print all the relevance of the transitions in an ER, and the ones kept in a batch :
 <img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/ExpReplayTest.png?raw=true" alt="alt Text" title="Experience Replay test"></p>
-<h3 id="the-learner">The Learner</h3>
+<h2 id="the-learner">The Learner</h2>
 <p>This class trains a qnetwork with the batches from the Experience Replay class.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Learner.png?raw=true" alt="alt Text" title="Learner"></p>
 <p>If we look at the parameters : gamma is the discounting factor, and the algorithm used to improve the network is either Sarsa or QLearning.</p>
@@ -213,7 +221,7 @@ The subtraction of those two defines the error of the system, which is used to d
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/LearnerTest.png?raw=true" alt="alt Text" title="Learner test">
 <img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/LearnerTest2.png?raw=true" alt="alt Text" title="Learner test 2"></p>
 <p>The loss is supposed to be smaller after the training, and circled in red we can observe the parameters of the batch at the beginning of the training.</p>
-<h3 id="the-training-loop">The Training Loop</h3>
+<h2 id="the-training-loop">The Training Loop</h2>
 <p>The 7th class is the Training Loop.
 The model has been defined, and now it is time to train it to sruvive episodes of the game.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoop.png?raw=true" alt="alt Text" title="Training Loop"></p>
@@ -223,12 +231,12 @@ The initialization concerns all the parameters of the model that will act during
 <p>At every iteration, the agent acts, the system adds a transition in the Experience Replay, this replay is used by the Learner class to improve the model, and the system updates the batch with better actions for the agent.</p>
 <p>At each iteration we print the loss resulting from the action and the transition of the agent, along with the score in the game, and the epsilon :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoop3.png?raw=true" alt="alt Text" title="Training Loop test"></p>
-<h3 id="the-evaluation">The Evaluation</h3>
+<h2 id="the-evaluation">The Evaluation</h2>
 <p>The 8th class is the Evaluation : it displays in a graphic the resulting score of the training of the system :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Evaluation.png?raw=true" alt="alt Text" title="Evaluation"></p>
-<h3 id="the-renderer">The Renderer</h3>
+<h2 id="the-renderer">The Renderer</h2>
 <p>Finally, the last class renders the movement of the agent during the episode, I did not run it because it took a lot of time.</p>
-<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Renderer.png?raw=true" alt="alt Text" title="Renderer"></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Hammer.JPG?raw=true" alt="alt Text" title="Renderer"></p>
 <ul class="pa0">
   
 </ul>

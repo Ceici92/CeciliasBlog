@@ -2,6 +2,7 @@
 title: "Reinforcement Learning : Part 1"
 date: 2020-12-15T14:59:24+01:00
 draft: false
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/CeciliasBlog/blob/master/docs/images/RL_1/VideoHammer.gif?raw=true"
 ---
 
 In this post I will explain one of the laboratories I did this year about Reinforcement Learning. 
@@ -9,18 +10,18 @@ During this lab, we used a python code on Google Collab
 to manipulate a deep reinforcement learning network to solve the CartPole game : 
 a game where a hammer must not fall. 
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/VideoHammer.gif?raw=true "Video Hammer Game")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Hammer.JPG?raw=true "Hammer Game")
 
-In this first part, I am going to explain the different functions of the model, and in the seconf part in the next post, I will explain what I changed in the model to see the impact of the different parameters.
+In this first part, I am going to explain the different functions of the model, and in the second part in the next post, I will explain what I changed in the model to see the impact of the different parameters.
 
 
-## Part 1 : Presentation of the model
+# Part 1 : Presentation of the model
 
 
 First, we have the imports of the different objects needed to create our model. For example, gym is for the simulation of the Cart Pole game, and numpy is for the big amount of data used. 
 
 
-### The QNetwork
+## The QNetwork
 
 
 The second Class creates the QNetwork used to implement the Qvalues of the model :
@@ -49,7 +50,7 @@ Then, the model is printed to verify that there is no problem, along with it res
 We observe that the results are given in a matrix with two columns, each represents the qvalue of an action, and as we can see the action 1 is often the best because its qvalues are higher.
 
 
-### The Doer
+## The Doer
 
 The Doer is the part of the agent that acts : it takes the qnetwork, evaluates it on an input state and decides which action the agent should keep in function of the output qvalues of the network. 
 
@@ -64,7 +65,7 @@ Then we test the Doer, and see that it choses the accurate action with the highe
 
 
 
-### The Experience Replay
+## The Experience Replay
 
 This function encapsulates all the relevant data from the agent transitions : St (the previous state), At (the previous action), Rt (the reward), St+1 (the current state), and At+1 (the current action). 
 
@@ -90,7 +91,7 @@ To see how the class works, we print all the relevance of the transitions in an 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/ExpReplayTest.png?raw=true "Experience Replay test")
 
 
-### The Learner
+## The Learner
 
 
 This class trains a qnetwork with the batches from the Experience Replay class.
@@ -128,7 +129,7 @@ After the training, the results are displayed to observe the evolution of the ba
 The loss is supposed to be smaller after the training, and circled in red we can observe the parameters of the batch at the beginning of the training.
 
 
-### The Training Loop
+## The Training Loop
 
 The 7th class is the Training Loop. 
 The model has been defined, and now it is time to train it to sruvive episodes of the game.
@@ -148,16 +149,16 @@ At each iteration we print the loss resulting from the action and the transition
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoop3.png?raw=true "Training Loop test")
 
 
-### The Evaluation
+## The Evaluation
 
 The 8th class is the Evaluation : it displays in a graphic the resulting score of the training of the system :
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Evaluation.png?raw=true "Evaluation")
 
 
-### The Renderer
+## The Renderer
 
 Finally, the last class renders the movement of the agent during the episode, I did not run it because it took a lot of time.
 
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Renderer.png?raw=true "Renderer")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Hammer.JPG?raw=true "Renderer")
