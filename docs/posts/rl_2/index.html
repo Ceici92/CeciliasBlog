@@ -40,7 +40,7 @@ Part 2 : Manipulations First test I conducted a first training with the basic fo
 And I looked at the first results without changing any of those parameters :">
 <meta itemprop="datePublished" content="2020-12-15T18:14:31+01:00" />
 <meta itemprop="dateModified" content="2020-12-15T18:14:31+01:00" />
-<meta itemprop="wordCount" content="662">
+<meta itemprop="wordCount" content="665">
 
 
 
@@ -184,7 +184,7 @@ So I went back to QLearning and I tried changing other parameters.</p>
 <p>I changed the Doer to randomly to look at the impact on the results.
 The score becomes quite hight (around 23), however we observe that it is more stable because in this case the model does not learn :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Doer.png?raw=true" alt="alt Text" title="Doer"></p>
-<p>I turned it back to the previous Doer to keep observing the influence of the other parameters.</p>
+<p>I put back to the previous Doer to keep observing the influence of the other parameters.</p>
 <h2 id="the-experience-replay">The Experience Replay</h2>
 <p>To obtain better scores, I first changed the width of the network.
 With a capacity of 16 the network was not going to be able to learn enough to reach higher scores.
@@ -193,11 +193,10 @@ Therefore, I augmented the width of the network to 128. Besides, I diminished th
 <img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ER.png?raw=true" alt="alt Text" title="ER"></p>
 <p>The score is much higher, it almost reaches 40 and then varies around 20. However, even if at the beginning the model seem to learn and progress, its score starts to decrease around the 300th iteration. Our model reaches its second wall.</p>
 <p>The loss is also smaller :
-<img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ER2.png?raw=true" alt="alt Text" title="ER2">
-<img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ER3.png?raw=true" alt="alt Text" title="ER3"></p>
+<img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ER2.png?raw=true" alt="alt Text" title="ER2"></p>
 <h2 id="the-reward-function">The Reward Function</h2>
 <p>I augmented the batch size of the Experience Replays to try to improve the results.
-Then, I changed the reward function as following :
+Then, I changed the reward function as the following :
 <img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward1.png?raw=true" alt="alt Text" title="Reward"></p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward2.png?raw=true" alt="alt Text" title="Reward2"></p>
 <p>The system starts with low scores and improves until reaching a score around 50, before fluctuating a lot, and going down to a score of 20.</p>
@@ -217,12 +216,11 @@ The system does not success in reaching a higher score than 30, because it does 
 This is why training the model only each 3 iterations, enables the system to gather more data before training, and therefore to improve its choices.</p>
 <h2 id="the-activation-function">The Activation Function</h2>
 <p>Finally, I changed the activation function from Sigmoid to LeakyRelu, to see the impact on the system :</p>
-<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF2.png?raw=true" alt="alt Text" title="ActivationF"></p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF2.png?raw=true" alt="alt Text" title="ActivationF2">
 <img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF3.png?raw=true" alt="alt Text" title="ActivationF3"></p>
 <p>The results are not better, it is the contrary : the score fluctuates from 25 to 15.
 Therefore the Sigmoid function seems more suited for this model.</p>
-<p>We could also change the value of the epsilon to observe the influence of the amount of exploration on the performances of the system.</p>
+<p>We could also change the value of the epsilon or the optimizer to observe the influence of the amount of exploration on the performances of the system.</p>
 <ul class="pa0">
   
 </ul>

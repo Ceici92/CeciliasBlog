@@ -46,7 +46,7 @@ The score becomes quite hight (around 23), however we observe that it is more st
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Doer.png?raw=true "Doer")
 
-I turned it back to the previous Doer to keep observing the influence of the other parameters.
+I put back to the previous Doer to keep observing the influence of the other parameters.
 
 
 ## The Experience Replay
@@ -63,13 +63,12 @@ The score is much higher, it almost reaches 40 and then varies around 20. Howeve
 
 The loss is also smaller :
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ER2.png?raw=true "ER2")
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ER3.png?raw=true "ER3")
 
 
 ## The Reward Function
 
 I augmented the batch size of the Experience Replays to try to improve the results.
-Then, I changed the reward function as following :
+Then, I changed the reward function as the following :
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward1.png?raw=true "Reward")
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Reward2.png?raw=true "Reward2")
@@ -106,7 +105,6 @@ This is why training the model only each 3 iterations, enables the system to gat
 
 Finally, I changed the activation function from Sigmoid to LeakyRelu, to see the impact on the system :
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF2.png?raw=true "ActivationF")
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF2.png?raw=true "ActivationF2")
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/ActivationF3.png?raw=true "ActivationF3")
@@ -115,4 +113,4 @@ The results are not better, it is the contrary : the score fluctuates from 25 to
 Therefore the Sigmoid function seems more suited for this model.
 
 
-We could also change the value of the epsilon to observe the influence of the amount of exploration on the performances of the system.
+We could also change the value of the epsilon or the optimizer to observe the influence of the amount of exploration on the performances of the system.

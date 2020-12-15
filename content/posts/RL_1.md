@@ -18,7 +18,7 @@ In this first part, I am going to explain the different functions of the model, 
 # Part 1 : Presentation of the model
 
 
-First, we have the imports of the different objects needed to create our model. For example, gym is for the simulation of the Cart Pole game, and numpy is for the big amount of data used. 
+First, we import the different objects needed to create our model. For example, gym is for the simulation of the Cart Pole game.
 
 
 ## The QNetwork
@@ -99,7 +99,7 @@ This class trains a qnetwork with the batches from the Experience Replay class.
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Learner.png?raw=true "Learner")
 
 
-If we look at the parameters : gamma is the discounting factor, and the algorithm used to improve the network is either Sarsa or QLearning.
+If we look at the parameters : gamma is the discounting factor, and Sarsa or QLearning are the algorithm chosen to improve the network.
 
 We observe that there is a target network that will be trained, and a frozen network that will be used to see the improvement of the network along the training.
 
@@ -113,10 +113,6 @@ The subtraction of those two defines the error of the system, which is used to d
 
 
 The Sarsa algorithm looks at what the system did after (At+1) to define the target qvalues, so it is ON Policy, while the Q-Learning algorithm looks at the maximum, it is OFF Policy.
-
-
-Then the system gets the batches and makes sure there is no aberration in the data. It extracts all the objects from the batches, and set the target network to train :
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Learner3.png?raw=true "Learner 3")
 
 For every transition, step, iteration, in the batch, the qvalue becomes closer to the target qvalue of the algorithm.  
 
@@ -136,7 +132,7 @@ The model has been defined, and now it is time to train it to sruvive episodes o
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoop.png?raw=true "Training Loop")
 
-The initialization of this class will be the core of our playground during the next part of this article, because there is a lot of parameters to change. 
+The initialization of this class will be the core of our playground during the next post about this model, because there is a lot of parameters to change. 
 The initialization concerns all the parameters of the model that will act during the training : the qnetwork, the doer, the learner, and the ERs list.
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoop2.png?raw=true "Training Loop 2")
@@ -146,7 +142,7 @@ At every iteration, the agent acts, the system adds a transition in the Experien
 
 At each iteration we print the loss resulting from the action and the transition of the agent, along with the score in the game, and the epsilon :
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoop3.png?raw=true "Training Loop test")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoopTest.png?raw=true "Training Loop test")
 
 
 ## The Evaluation

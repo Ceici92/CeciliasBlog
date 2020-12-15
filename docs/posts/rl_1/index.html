@@ -38,7 +38,7 @@ In this first part, I am going to explain the different functions of the model, 
 In this first part, I am going to explain the different functions of the model, and in the second part in the next post, I will explain what I changed in the model to see the impact of the different parameters.">
 <meta itemprop="datePublished" content="2020-12-15T14:59:24+01:00" />
 <meta itemprop="dateModified" content="2020-12-15T14:59:24+01:00" />
-<meta itemprop="wordCount" content="1169">
+<meta itemprop="wordCount" content="1123">
 
 
 
@@ -167,7 +167,7 @@ a game where a hammer must not fall.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Hammer.JPG?raw=true" alt="alt Text" title="Hammer Game"></p>
 <p>In this first part, I am going to explain the different functions of the model, and in the second part in the next post, I will explain what I changed in the model to see the impact of the different parameters.</p>
 <h1 id="part-1--presentation-of-the-model">Part 1 : Presentation of the model</h1>
-<p>First, we have the imports of the different objects needed to create our model. For example, gym is for the simulation of the Cart Pole game, and numpy is for the big amount of data used.</p>
+<p>First, we import the different objects needed to create our model. For example, gym is for the simulation of the Cart Pole game.</p>
 <h2 id="the-qnetwork">The QNetwork</h2>
 <p>The second Class creates the QNetwork used to implement the Qvalues of the model :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/QNetwork.png?raw=true" alt="alt Text" title="QNetwork"></p>
@@ -206,7 +206,7 @@ The SortTransition defines, when the batch is full, if the system removes the ol
 <h2 id="the-learner">The Learner</h2>
 <p>This class trains a qnetwork with the batches from the Experience Replay class.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Learner.png?raw=true" alt="alt Text" title="Learner"></p>
-<p>If we look at the parameters : gamma is the discounting factor, and the algorithm used to improve the network is either Sarsa or QLearning.</p>
+<p>If we look at the parameters : gamma is the discounting factor, and Sarsa or QLearning are the algorithm chosen to improve the network.</p>
 <p>We observe that there is a target network that will be trained, and a frozen network that will be used to see the improvement of the network along the training.</p>
 <p>Another variable in this class is the optimizer that is set to adam, it is another parameter that could be changed in the next part to observe its impact on the system.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Learner2.png?raw=true" alt="alt Text" title="Learner 2"></p>
@@ -214,8 +214,6 @@ The SortTransition defines, when the batch is full, if the system removes the ol
 You can see circled in red the targeted qvalues, and at their left the current qvalues.
 The subtraction of those two defines the error of the system, which is used to define the loss of each transition.</p>
 <p>The Sarsa algorithm looks at what the system did after (At+1) to define the target qvalues, so it is ON Policy, while the Q-Learning algorithm looks at the maximum, it is OFF Policy.</p>
-<p>Then the system gets the batches and makes sure there is no aberration in the data. It extracts all the objects from the batches, and set the target network to train :
-<img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Learner3.png?raw=true" alt="alt Text" title="Learner 3"></p>
 <p>For every transition, step, iteration, in the batch, the qvalue becomes closer to the target qvalue of the algorithm.</p>
 <p>After the training, the results are displayed to observe the evolution of the batch :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/LearnerTest.png?raw=true" alt="alt Text" title="Learner test">
@@ -225,12 +223,12 @@ The subtraction of those two defines the error of the system, which is used to d
 <p>The 7th class is the Training Loop.
 The model has been defined, and now it is time to train it to sruvive episodes of the game.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoop.png?raw=true" alt="alt Text" title="Training Loop"></p>
-<p>The initialization of this class will be the core of our playground during the next part of this article, because there is a lot of parameters to change.
+<p>The initialization of this class will be the core of our playground during the next post about this model, because there is a lot of parameters to change.
 The initialization concerns all the parameters of the model that will act during the training : the qnetwork, the doer, the learner, and the ERs list.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoop2.png?raw=true" alt="alt Text" title="Training Loop 2"></p>
 <p>At every iteration, the agent acts, the system adds a transition in the Experience Replay, this replay is used by the Learner class to improve the model, and the system updates the batch with better actions for the agent.</p>
 <p>At each iteration we print the loss resulting from the action and the transition of the agent, along with the score in the game, and the epsilon :</p>
-<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoop3.png?raw=true" alt="alt Text" title="Training Loop test"></p>
+<p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/TrainingLoopTest.png?raw=true" alt="alt Text" title="Training Loop test"></p>
 <h2 id="the-evaluation">The Evaluation</h2>
 <p>The 8th class is the Evaluation : it displays in a graphic the resulting score of the training of the system :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Evaluation.png?raw=true" alt="alt Text" title="Evaluation"></p>
