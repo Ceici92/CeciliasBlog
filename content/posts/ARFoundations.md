@@ -22,7 +22,7 @@ I switched my project to Android, and modified the Player Settings -> Other Sett
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/AR/ARFoundations/ProjectSettings.png?raw=true "ProjSettings")
  
 
-Then, with the Package Manager I installed the AR Packages : AR Foundation, AR Core XR Plugin, and ARKit XR Plugin for face tracking as shown in the video.
+Then, with the Package Manager I installed the AR Packages : AR Foundation, AR Core XR Plugin, and ARKit XR Plugin for image tracking as shown in the video.
  ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/AR/ARFoundations/ProjectSettings2.png?raw=true "ProjSettings2")
 
 
