@@ -2,7 +2,7 @@
 title: "Reinforcement Learning : Part 2"
 date: 2020-12-15T18:14:31+01:00
 draft: false
-featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_1/Part2.png?raw=true"
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RL_2/Part2.png?raw=true"
 ---
 
 This post is the second part of my work for the Reinforcement Learning labaratory.
