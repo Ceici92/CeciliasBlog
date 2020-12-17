@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Oct 2020 17:15:58 +0100</lastBuildDate><atom:link href="https://Ceici92.github.io/CeciliasBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>RNN: Part 1</title>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/rnn-1/</link>
+      <pubDate>Thu, 17 Dec 2020 19:24:25 +0100</pubDate>
+      
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/rnn-1/</guid>
+      <description>I followed a class about Recurrent Neural Networks. In this first part I will explain what I learned from it, and in a second part in the next post I will explain the lab I did on the same topic.
+Part 1 : What is a Recurrent Normal Network (All the images used come from my teacher�s presentation.)
+Presentation A Recurrent Neural Network(RNN) can, as any neural network, approximate a non-linear function by learning from the given data, in order to output the required vectors.</description>
+    </item>
+    
+    <item>
       <title>Reinforcement Learning : Part 2</title>
       <link>https://Ceici92.github.io/CeciliasBlog/posts/rl_2/</link>
       <pubDate>Tue, 15 Dec 2020 18:14:31 +0100</pubDate>
