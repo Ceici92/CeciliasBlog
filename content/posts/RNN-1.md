@@ -1,5 +1,5 @@
 ---
-title: "RNN: Part 1"
+title: "RNN Part 1 : What is a recurrent Neural Network ?"
 date: 2020-12-17T19:24:25+01:00
 draft: false
 featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RNN-1/SentimentAnalysis.png?raw=true?raw=true"
@@ -9,9 +9,9 @@ I followed a class about Recurrent Neural Networks.
 In this first part I will explain what I learned from it, and in a second part in the next post I will explain the lab I did on the same topic.
 
 
-# Part 1 : What is a Recurrent Normal Network
-
 (All the images used come from my teacher's presentation.)
+
+
 
 ## Presentation
 
