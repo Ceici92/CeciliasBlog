@@ -2,7 +2,7 @@
 title: "RNN Part 2: The laboratory"
 date: 2020-12-18T12:41:10+01:00
 draft: true
-featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RNN-2/.png?raw=true?raw=true"
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/RNN-1/RNN.png?raw=true"
 ---
 
 This post is the second part of my evaluation for the Recurrent Neural Network class. 
