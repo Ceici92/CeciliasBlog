@@ -10,7 +10,7 @@ I am going detail what I did during the laboratory.
 
 
 The lab consisted in implementing a RNN for image captioning, you can find the code on the  Google Collab here :
-https://colab.research.google.com/drive/1qft4rTOrA_FAP6kAPhAMfDisNmcfUh-r#scrollTo=0slnzwntg3Xp
+https://colab.research.google.com/drive/1qft4rTOrA_FAP6kAPhAMfDisNmcfUh-r?usp=sharing
 
 I completed it with all that we have seen during the class, and I tried to train the model by my own.
 
