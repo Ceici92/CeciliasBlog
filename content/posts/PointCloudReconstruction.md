@@ -1,11 +1,11 @@
 ---
-title: "PointCloudReconstruction"
+title: "Point Cloud Reconstruction"
 date: 2020-12-20T13:15:45+01:00
 draft: false
 featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/PointCloud/Result1.png?raw=true"
 ---
 
-The goal of this lab was to reconstruct a 3D object using 2D images, with the C3DC software.
+The goal of this lab is to reconstruct a 3D object using 2D images, with the C3DC software.
 
 
 First, I chose to reconstruct the following ladybird. So I put her in a room with homogenous lighting, and took images of it from various angles. However, the images cannot be unconnected, the algorithm was not able to match the feature points on the object and its background. Therefore I added a white sheet of paper beneath the ladybird, as you can see on the following images :
@@ -22,7 +22,7 @@ I tried to reconstruct the object with two set of parameters, but none of them w
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/PointCloud/Error.png?raw=true "Error")
 
 
-One of the problem could be that the ladybird is a little reflective, and that the images did not captured a lot of the background, so the algorithm may not have been able to replace the object and identify its angles.
+Two of the problems could be that the ladybird is a little reflective, and that the images did not captured a lot of the background, so the algorithm may not have been able to replace the object and identify its angles.
 
 
 I decided to try with another object, a little mask of a lady with a hat :
