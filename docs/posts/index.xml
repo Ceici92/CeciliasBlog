@@ -62,6 +62,17 @@ In this first part, I am going to explain the different functions of the model, 
     </item>
     
     <item>
+      <title>ACVKhoa</title>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/acvkhoa/</link>
+      <pubDate>Tue, 01 Dec 2020 22:29:50 +0100</pubDate>
+      
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/acvkhoa/</guid>
+      <description>In my Advanced Computer Vision class, I got a lab about the 3D reconstruction of human poses. The purpose is to The purpose of the lab is to implement the 3D reconstruction from multi-views of human pose on a calibrated system.
+We were given various files, such as videos of each subjects, and the visual output of the reconstruction on each sequence of each subject.
+I started by trying to run the reconstruction code given on the sequences of the subject Lea, to see what we were supposed to obtain :</description>
+    </item>
+    
+    <item>
       <title>AR Foundation on Unity</title>
       <link>https://Ceici92.github.io/CeciliasBlog/posts/arfoundations/</link>
       <pubDate>Thu, 05 Nov 2020 11:42:24 +0100</pubDate>
