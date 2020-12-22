@@ -1,5 +1,5 @@
 ---
-title: "ACVKhoa"
+title: "ACV : 3D Reconstruction of human poses"
 date: 2020-12-01T22:29:50+01:00
 draft: false
 featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/ACVKhoa/GivenCode.JPG?raw=true"
@@ -18,10 +18,14 @@ We can observe that the joints are not exactly on the subject.
 
 
 To put in place this 3D reconstruction from human poses on a calibrated system, I had to complete the following steps :
+
 1 - Read the 2DTXT file and draw the keypoints on original video 
+
 2 - Read the 3DTXT of any activity, the coordinates 3D has the reference on the first camera (camera 0th). Project these coordinates on the frame of the different camera frame Using the relative pose between cameras (pose_0_1.. etc) and camera's intrinsic parameters
+
 3 - Triangulation the 3D keypoint by your own methods and creativity from multi-view of keypoints on each frame
+
 4 - Optimization to have a smooth result
 
 
-However, I was not able to implement it.
+Unfortunately, I was not able to implement it.
