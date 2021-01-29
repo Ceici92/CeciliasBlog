@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Ceici92.github.io/CeciliasBlog/posts/mrtklab/</loc>
+    <lastmod>2021-01-29T19:04:04+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://Ceici92.github.io/CeciliasBlog/posts/pointcloudreconstruction/</loc>
     <lastmod>2020-12-20T13:15:45+01:00</lastmod>
     <changefreq>monthly</changefreq>
