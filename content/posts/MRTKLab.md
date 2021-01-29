@@ -9,11 +9,11 @@ featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images
 For the AR class I created an MRTK application on Unity. 
 
 The goal of the app is the following :
-*“We are in 2027. You are the CEO of an AR startup.
+*"We are in 2027. You are the CEO of an AR startup.
 Today is the Paris Motor Show.
 You had the chance to make a deal with the organizers of the event.
 You are demonstrating your AR application to the public. 
-A good review of the visitors will get you a big fat contract with the Paris Motor Show.”*
+A good review of the visitors will get you a big fat contract with the Paris Motor Show."*
 
  
 I described below the different aspects of my application and how I produced them.
@@ -24,7 +24,8 @@ You can also find the documentation about the MRTK example package here :
 https://github.com/microsoft/MixedRealityToolkit-Unity
 
 
-0. Creating the environment
+
+# 0. Creating the environment
 
 To give the impression of being in a real Paris Motor Show, I created a big white floor with a red carped on top, and added some cars from the Unity Asset Store.
 
@@ -37,18 +38,18 @@ When the user arrives to the Paris Motor Show, he is welcomed with the following
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/1Welcome.png?raw=true "") 
 
-Instead of the Unity UI facade, ** 3D components and 3D text ** are more suited for mixed-reality applications. 
+Instead of the Unity UI facade, **3D components and 3D text** are more suited for mixed-reality applications. 
 Therefore, on the following image you can see a 3D TextMesh Pro text on a plane with the MRTK_Standard_TransparentCyan material.
 
 
 In order to enable the Welcome menu to follow the user, I added to it the **SolverHandler** and the **RadialView** components, and set the Tracked Target to the head. 
 
-The lerp times configure the time for the menu to updates its position and rotation, the min and max distances configure the distance from the user, and the min and max degrees correspond respectively to the min distance in degrees the panel will have from the user (such as an “offset” from the center of the view) and the distance allowed before the panel position updates.
+The lerp times configure the time for the menu to updates its position and rotation, the min and max distances configure the distance from the user, and the min and max degrees correspond respectively to the min distance in degrees the panel will have from the user (such as an "offset" from the center of the view) and the distance allowed before the panel position updates.
  
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/1Welcome2.png?raw=true "")
 
 
-Finally, the “Continue” button is the “Button” prefab from the MixedRealityTookit-Unity Examples package.
+Finally, the "Continue" button is the "Button" prefab from the MixedRealityTookit-Unity Examples package.
 It is set as a normal button, and triggers the apparition of the next panel.
  
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/1Welcome3.png?raw=true "")
@@ -94,14 +95,14 @@ The Directional Indicator script configures the object to point at : the car for
 
 Once the user is close enough to the car, the following options will appear :
  
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/4Information.png?raw=true "")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/4Info.png?raw=true "")
 
 
 ## A. The trigger :
-To trigger the apparition of the information panels when the camera is close enough of the car, I created a new empty game object called PlayerTrigger as a child of the Main Camera. I defined its tag to “Player” and added to it a box collider large enough. 
+To trigger the apparition of the information panels when the camera is close enough of the car, I created a new empty game object called PlayerTrigger as a child of the Main Camera. I defined its tag to "Player" and added to it a box collider large enough. 
 As for the car, I added to it a big box collider (it defines the space in which the player will be detected)  and the following script that I wrote :
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/4Information2.png?raw=true "")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/4Info2.png?raw=true "")
 
 
 The script triggers the activation of the OnCollision event when the PlayerTrigger is detected, in this event I displayed the car information and I made the solvers disappear.
@@ -129,7 +130,7 @@ The example below show the result if the user choses the blue one.
 
 To enable this colour change, I first created the buttons using the PressableRoundButton prefab from the MRTK example package, and I put them in an empty object with a GridObjectCollection component as seen previously. 
 
-I struggled to change the colours of the buttons, it is not only necessary to change the colour’s material of CylinderContainer, I had to create a new **Colour Theme** for the button, as you can see below for the blue one :
+I struggled to change the colours of the buttons, it is not only necessary to change the colour's material of CylinderContainer, I had to create a new **Colour Theme** for the button, as you can see below for the blue one :
    
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/5Interaction3.png?raw=true "")
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/5Interaction4.png?raw=true "")
@@ -147,7 +148,7 @@ The user can grab it and manipulate it with one or two hands, to see the car on 
 
 ## C. Speech command to quit
 
-Once the user wants to quit the application, he can say “Enable quitting” to make a balloon appear, which if he clicks on it will trigger the quitting panel.
+Once the user wants to quit the application, he can say "Enable quitting" to make a balloon appear, which if he clicks on it will trigger the quitting panel.
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/5InteractionC.png?raw=true "")
 
@@ -158,7 +159,7 @@ In the new profile I created a new **keyword** as showed below :
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/5InteractionC2.png?raw=true "")
 
 
-Then, to control the speech commands, I created a new game object in the scene called “SpeechInputHandler”, I added to it the **Speech Input Handler** component and configured to display the balloon :
+Then, to control the speech commands, I created a new game object in the scene called "SpeechInputHandler", I added to it the **Speech Input Handler** component and configured to display the balloon :
  
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/5InteractionC3.png?raw=true "")
 
@@ -171,10 +172,8 @@ As for the configuration of the **interactable** balloon, I used the balloon fro
 
 # 6. The rating panel
 
-Once the user clicks on the balloon, a new panel appears to make him rate the application between 0 and 5. 
+Once the user clicks on the balloon, a new panel (same components as before) appears to make him rate the application between 0 and 5. 
 
-The creation of the panel is similar as the car preferences panel seen before.
-
-To end the experience, once the user rated the rated the app, a thank you message displays.
+To end the experience, once the user rated the app, a thank you message displays.
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/6Rating.png?raw=true "")
