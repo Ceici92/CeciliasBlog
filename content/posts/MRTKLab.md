@@ -145,6 +145,8 @@ The user can grab it and manipulate it with one or two hands, to see the car on 
  
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/MRTKLab/5InteractionB.png?raw=true "")
 
+To create it I just created a new game object with the little car as children, and I added a box collider, an Object Manipulator and a Near Interactable Grabbable script to it.
+
 
 ## C. Speech command to quit
 
