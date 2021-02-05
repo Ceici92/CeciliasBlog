@@ -7,7 +7,7 @@ featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images
 
 As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. 
 My colleague and I decided to realize an AR application for a street art in Evry.
-This fresco was created by children of the  “Maison de Quartier” in Evry, students of Telecom Sudparis and the street artist Vince.
+This fresco was created by children of the  "Maison de Quartier" in Evry, students of Telecom Sudparis and the street artist Vince.
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/Fresco.png?raw=true "Fresco")
 
@@ -19,9 +19,9 @@ To define our project and how to implement it, we always had to keep in mind tha
 The goal of this post is to come back on the technical parts of the project.
 
 Here is a summary of the technologies we decided to use : 
-•	Blender was needed for meshes, textures and animation.
-•	Unity was the core of the project. It is a technology we already know and that enables everything we needed : from UI to animations and building an app.
-•	As SDK we used AR foundation, a unity framework using both AR Core (Google) and AR Kit (Apple) functionalities.
+- Blender was needed for meshes, textures and animation.
+- Unity was the core of the project. It is a technology we already know and that enables everything we needed : from UI to animations and building an app.
+- As SDK we used AR foundation, a unity framework using both AR Core (Google) and AR Kit (Apple) functionalities.
 
 
 At the end of this post you can download the android version of the application.
@@ -50,7 +50,7 @@ If we choose an animation corresponding to the rigging selected, we can see that
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/DopeSheet2.png?raw=true "")
 
  
-You can’t dele actions (or texture) directly in the action menu, you have to go in the hierarchy of the blender files :
+You can't delete actions (or texture) directly in the action menu, you have to go in the hierarchy of the blender files :
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/BlenderFiles.png?raw=true "")
   
@@ -64,7 +64,7 @@ To texture it, first, I got a lion texture from 3dtextures.me, you can also find
 Here is a good tutorial video about using material images to make a texture:
 https://www.youtube.com/watch?v=XI-pZshRp8g
 
-To use this texture on the lion, I started by creating the new material “Fur”, by unwrapping my Lion points in edit mode, and by opening the shader menu.
+To use this texture on the lion, I started by creating the new material Fur, by unwrapping my Lion points in edit mode, and by opening the shader menu.
 
 I added the base colour to the BSDF block (in short it is the more recent block that reunites a lot of other types of materials), and I assigned the fur material to all the lion to see what it looked like.
 
@@ -116,7 +116,7 @@ I created a new material, selected the lion, and paint the texture of the new ma
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/PaintTexture.png?raw=true "")
 
 
-3.	Export textures and animations from Blender to Unity
+# 3.	Export textures and animations from Blender to Unity
 
 Textures :
 We exported the blender models in fbx to keep the materials and the animation in the export. 
@@ -136,7 +136,7 @@ Then import the image of the baked textures in Unity, and add it on the Albedo m
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/UnityTextures.png?raw=true "")
 
 
-Depending on your baked texture you can also fill the normal map, heigh, occlusion etc ….
+Depending on your baked texture you can also fill the normal map, heigh, occlusion etc...
 Now, your object on the scene and its prefab should have the right materials.
 
 ## Animations :
@@ -236,7 +236,7 @@ It detects where the user touched the ground, and if it is on a detected plane i
 At the beginning of our application we use Image Tracking, and the prefab of the first animations are spawned directly by the Image Tracking script of AR Foundation. 
 However, when we stop the plane tracked scene, we need to come back to the location of the detected image. 
 Unfortunately, if we activate again the image tracking to detect the same previous image we had some issues. 
-Therefore, we thought about detecting the position of the previous spawned prefab instead. However, we did something simpler than that, we only spawn the new scene at the position (0 0 0) with a rotation of 180° on Y (cf how to position objects after image recognition) since we only play cinematics.
+Therefore, we thought about detecting the position of the previous spawned prefab instead. However, we did something simpler than that, we only **spawn the new scene at the position (0 0 0) with a rotation of 180° on Y** (cf how to position objects after image recognition) since we only play cinematics.
 
 
 The Activate S11 script is the one that spawns the Scene 11 prefab from our assets :
@@ -263,7 +263,7 @@ All these configurations boost our battery life, and the heating of our cell pho
 
 # 8.	User Interface
 
-Of course with children you don’t want to make a 2 hours long class. They need to be part of the show. It is why we put questions, even at the very beginning. Those are simple, with buttons and with canvas directly in Unity. That way there was no need of coding an application in android studio or anything that would have caused issues of compatibility with IOS.
+Of course with children you don't want to make a 2 hours long class. They need to be part of the show. It is why we put questions, even at the very beginning. Those are simple, with buttons and with canvas directly in Unity. That way there was no need of coding an application in android studio or anything that would have caused issues of compatibility with IOS.
 
 We tried to incorporate responsive design : when the user clicks on one of the buttons to answer the questions, the sound is different if it is the good answer or not, also the good answers become green and the bad ones red.
 For guiding there are both text and icons to make sure the user knows what to do. 
@@ -275,7 +275,8 @@ For guiding there are both text and icons to make sure the user knows what to do
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Q2.jpg?raw=true "")
 
 
-About sound, we learned how central it was in immersive application. Therefore, we added sounds linked to many objects, such as all the living characters. We synchronised them as much as possible with the characters’ movements to be realistic. Sounds are linked to objects and scenes so that they begin exactly with the animations. Moreover, the main lion (Alex) speaks the whole story. 
+About sound, we learned how central it was in immersive application. Therefore, we added sounds linked to many objects, such as all the living characters. 
+We synchronised them as much as possible with the characters' movements to be realistic. Sounds are linked to objects and scenes so that they begin exactly with the animations. Moreover, the main lion (Alex) speaks the whole story. 
 Furthermore, adding music seemed a perfect way to keep rhythm in the experience, and to enjoy even more the videos for instance. The introduction music while on the first menu enables the user to find the good volume. 
 
 Finally, a script had to be done in order to deal with an object or scene with more than 1 sound, for instance with 2 comments from Alex, or to manage background sound and dialogues at the same time :
@@ -284,6 +285,8 @@ Finally, a script had to be done in order to deal with an object or scene with m
 
 
 At the end, we are happy with our application : we obtained an entertaining application, easy to use, and faithful to the fresco.
+
+
 
 Try it yourself with this android version :
 

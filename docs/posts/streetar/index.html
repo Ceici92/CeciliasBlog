@@ -27,25 +27,25 @@
     
     
     <meta property="og:title" content="Transversal Project : StreetAR" />
-<meta property="og:description" content="As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. My colleague and I decided to realize an AR application for a street art in Evry. This fresco was created by children of the ï¿½Maison de Quartierï¿½ in Evry, students of Telecom Sudparis and the street artist Vince.
+<meta property="og:description" content="As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. My colleague and I decided to realize an AR application for a street art in Evry. This fresco was created by children of the &ldquo;Maison de Quartier&rdquo; in Evry, students of Telecom Sudparis and the street artist Vince.
 We wanted to make an application in connection with art, and we knew the vast number of frescos in Evry, so we decided to make an AR application that gives life to the one about the environment next to our school." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Ceici92.github.io/CeciliasBlog/posts/streetar/" />
 <meta property="article:published_time" content="2021-02-05T10:21:02+01:00" />
 <meta property="article:modified_time" content="2021-02-05T10:21:02+01:00" />
 <meta itemprop="name" content="Transversal Project : StreetAR">
-<meta itemprop="description" content="As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. My colleague and I decided to realize an AR application for a street art in Evry. This fresco was created by children of the ï¿½Maison de Quartierï¿½ in Evry, students of Telecom Sudparis and the street artist Vince.
+<meta itemprop="description" content="As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. My colleague and I decided to realize an AR application for a street art in Evry. This fresco was created by children of the &ldquo;Maison de Quartier&rdquo; in Evry, students of Telecom Sudparis and the street artist Vince.
 We wanted to make an application in connection with art, and we knew the vast number of frescos in Evry, so we decided to make an AR application that gives life to the one about the environment next to our school.">
 <meta itemprop="datePublished" content="2021-02-05T10:21:02+01:00" />
 <meta itemprop="dateModified" content="2021-02-05T10:21:02+01:00" />
-<meta itemprop="wordCount" content="2319">
+<meta itemprop="wordCount" content="2316">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Transversal Project : StreetAR"/>
-<meta name="twitter:description" content="As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. My colleague and I decided to realize an AR application for a street art in Evry. This fresco was created by children of the ï¿½Maison de Quartierï¿½ in Evry, students of Telecom Sudparis and the street artist Vince.
+<meta name="twitter:description" content="As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. My colleague and I decided to realize an AR application for a street art in Evry. This fresco was created by children of the &ldquo;Maison de Quartier&rdquo; in Evry, students of Telecom Sudparis and the street artist Vince.
 We wanted to make an application in connection with art, and we knew the vast number of frescos in Evry, so we decided to make an AR application that gives life to the one about the environment next to our school."/>
 
 	
@@ -162,16 +162,18 @@ We wanted to make an application in connection with art, and we knew the vast nu
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two.
 My colleague and I decided to realize an AR application for a street art in Evry.
-This fresco was created by children of the  “Maison de Quartier” in Evry, students of Telecom Sudparis and the street artist Vince.</p>
+This fresco was created by children of the  &ldquo;Maison de Quartier&rdquo; in Evry, students of Telecom Sudparis and the street artist Vince.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/Fresco.png?raw=true" alt="alt Text" title="Fresco"></p>
 <p>We wanted to make an application in connection with art, and we knew the vast number of frescos in Evry, so we decided to make an AR application that gives life to the one about the environment next to our school.
 We also chose this specific one because we had the artist&rsquo;s contact (Vince). Moreover, the environmental theme is very interesting, even more for kids.</p>
 <p>To define our project and how to implement it, we always had to keep in mind that it had to stay easy to use by users non initiated to AR. I would be an app to launch and to be guiding in.</p>
 <p>The goal of this post is to come back on the technical parts of the project.</p>
-<p>Here is a summary of the technologies we decided to use :
-•	Blender was needed for meshes, textures and animation.
-•	Unity was the core of the project. It is a technology we already know and that enables everything we needed : from UI to animations and building an app.
-•	As SDK we used AR foundation, a unity framework using both AR Core (Google) and AR Kit (Apple) functionalities.</p>
+<p>Here is a summary of the technologies we decided to use :</p>
+<ul>
+<li>Blender was needed for meshes, textures and animation.</li>
+<li>Unity was the core of the project. It is a technology we already know and that enables everything we needed : from UI to animations and building an app.</li>
+<li>As SDK we used AR foundation, a unity framework using both AR Core (Google) and AR Kit (Apple) functionalities.</li>
+</ul>
 <p>At the end of this post you can download the android version of the application.</p>
 <h1 id="1blender-animations">1.	Blender Animations</h1>
 <p>We can decide to move the object following a curve.
@@ -186,14 +188,14 @@ We can go on the Dope Sheet : Action Editor, to observe the different actions/an
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/DopeSheet.png?raw=true" alt="alt Text" title=""></p>
 <p>If we choose an animation corresponding to the rigging selected, we can see that it is applied on the selected character. If we want to put the same action to different characters it is better to use this button (or it will bug), that duplicate the action :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/DopeSheet2.png?raw=true" alt="alt Text" title=""></p>
-<p>You can’t dele actions (or texture) directly in the action menu, you have to go in the hierarchy of the blender files :</p>
+<p>You can&rsquo;t delete actions (or texture) directly in the action menu, you have to go in the hierarchy of the blender files :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/BlenderFiles.png?raw=true" alt="alt Text" title=""></p>
 <h1 id="2blender-textures">2.	Blender Textures</h1>
 <p>For the lion model I used a prefab from Sketchfab, but as you can see below it was not textured :</p>
 <p>To texture it, first, I got a lion texture from 3dtextures.me, you can also find some on textures.com.<br>
 Here is a good tutorial video about using material images to make a texture:
 <a href="https://www.youtube.com/watch?v=XI-pZshRp8g">https://www.youtube.com/watch?v=XI-pZshRp8g</a></p>
-<p>To use this texture on the lion, I started by creating the new material “Fur”, by unwrapping my Lion points in edit mode, and by opening the shader menu.</p>
+<p>To use this texture on the lion, I started by creating the new material Fur, by unwrapping my Lion points in edit mode, and by opening the shader menu.</p>
 <p>I added the base colour to the BSDF block (in short it is the more recent block that reunites a lot of other types of materials), and I assigned the fur material to all the lion to see what it looked like.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/Textures1.png?raw=true" alt="alt Text" title=""></p>
 <p>Then I opened the UV Editor, and increased the size of the UV Map to have a more realistic fur :</p>
@@ -216,9 +218,7 @@ To do so I selected the right regions in edit mode and assign a new black materi
 <p>We also tried the paint option on blender to texture the lion.
 I created a new material, selected the lion, and paint the texture of the new material :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/PaintTexture.png?raw=true" alt="alt Text" title=""></p>
-<ol start="3">
-<li>Export textures and animations from Blender to Unity</li>
-</ol>
+<h1 id="3export-textures-and-animations-from-blender-to-unity">3.	Export textures and animations from Blender to Unity</h1>
 <p>Textures :
 We exported the blender models in fbx to keep the materials and the animation in the export.
 Once in Unity, we have to unwrap the materials of the prefab, to assign them the right textures. To assign again the textures we need to have images of our textures.
@@ -230,7 +230,7 @@ It did not work for my lion because I had problems with the UV Mapping (as you s
 To add the textures, extract the materials from the prefab. Put the object in the scene to see what happens.
 Then import the image of the baked textures in Unity, and add it on the Albedo map of the materials :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/UnityTextures.png?raw=true" alt="alt Text" title=""></p>
-<p>Depending on your baked texture you can also fill the normal map, heigh, occlusion etc ….
+<p>Depending on your baked texture you can also fill the normal map, heigh, occlusion etc&hellip;
 Now, your object on the scene and its prefab should have the right materials.</p>
 <h2 id="animations-">Animations :</h2>
 <p>Export your blender object on the fbx format. Once on unity the prefab should have the animations :</p>
@@ -281,7 +281,7 @@ It detects where the user touched the ground, and if it is on a detected plane i
 <p>At the beginning of our application we use Image Tracking, and the prefab of the first animations are spawned directly by the Image Tracking script of AR Foundation.
 However, when we stop the plane tracked scene, we need to come back to the location of the detected image.
 Unfortunately, if we activate again the image tracking to detect the same previous image we had some issues.
-Therefore, we thought about detecting the position of the previous spawned prefab instead. However, we did something simpler than that, we only spawn the new scene at the position (0 0 0) with a rotation of 180° on Y (cf how to position objects after image recognition) since we only play cinematics.</p>
+Therefore, we thought about detecting the position of the previous spawned prefab instead. However, we did something simpler than that, we only <strong>spawn the new scene at the position (0 0 0) with a rotation of 180° on Y</strong> (cf how to position objects after image recognition) since we only play cinematics.</p>
 <p>The Activate S11 script is the one that spawns the Scene 11 prefab from our assets :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/ActivateS11.png?raw=true" alt="alt Text" title=""></p>
 <h1 id="7optimisation">7.	Optimisation</h1>
@@ -293,13 +293,14 @@ Therefore, we reduced the FramesPerSecond (fps) from 60 to 30, by going in : Edi
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/SteetAR/Opti2.png?raw=true" alt="alt Text" title=""></p>
 <p>All these configurations boost our battery life, and the heating of our cell phone.</p>
 <h1 id="8user-interface">8.	User Interface</h1>
-<p>Of course with children you don’t want to make a 2 hours long class. They need to be part of the show. It is why we put questions, even at the very beginning. Those are simple, with buttons and with canvas directly in Unity. That way there was no need of coding an application in android studio or anything that would have caused issues of compatibility with IOS.</p>
+<p>Of course with children you don&rsquo;t want to make a 2 hours long class. They need to be part of the show. It is why we put questions, even at the very beginning. Those are simple, with buttons and with canvas directly in Unity. That way there was no need of coding an application in android studio or anything that would have caused issues of compatibility with IOS.</p>
 <p>We tried to incorporate responsive design : when the user clicks on one of the buttons to answer the questions, the sound is different if it is the good answer or not, also the good answers become green and the bad ones red.
 For guiding there are both text and icons to make sure the user knows what to do.</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/2DSigns.jpg?raw=true" alt="alt Text" title=""></p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Q1.jpg?raw=true" alt="alt Text" title=""></p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/Q2.jpg?raw=true" alt="alt Text" title=""></p>
-<p>About sound, we learned how central it was in immersive application. Therefore, we added sounds linked to many objects, such as all the living characters. We synchronised them as much as possible with the characters’ movements to be realistic. Sounds are linked to objects and scenes so that they begin exactly with the animations. Moreover, the main lion (Alex) speaks the whole story.
+<p>About sound, we learned how central it was in immersive application. Therefore, we added sounds linked to many objects, such as all the living characters.
+We synchronised them as much as possible with the characters' movements to be realistic. Sounds are linked to objects and scenes so that they begin exactly with the animations. Moreover, the main lion (Alex) speaks the whole story.
 Furthermore, adding music seemed a perfect way to keep rhythm in the experience, and to enjoy even more the videos for instance. The introduction music while on the first menu enables the user to find the good volume.</p>
 <p>Finally, a script had to be done in order to deal with an object or scene with more than 1 sound, for instance with 2 comments from Alex, or to manage background sound and dialogues at the same time :</p>
 <p><img src="https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/TwoAudio.png?raw=true" alt="alt Text" title=""></p>
