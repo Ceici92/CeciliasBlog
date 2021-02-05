@@ -158,7 +158,7 @@ To prevent it, the solution is to detect the element that changes of coordinates
 
 Copy its components while it is running. (Little tip put the problematic animation as the first one in the animation controller, and then you will just have to move the timeline to see the object animated. Or create an animator aimed for all the tests ) :
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/Animations.png?raw=true "")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/Animation.png?raw=true "")
 
 
 Paste the coordinates on the element when the object is static. It will take the same place as in the animation.
