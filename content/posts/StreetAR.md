@@ -2,7 +2,7 @@
 title: "Transversal Project : StreetAR"
 date: 2021-02-05T10:21:02+01:00
 draft: false
-featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/Fresco.jpg?raw=true"
+featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/Pack.JPG?raw=true"
 ---
 
 As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. 
