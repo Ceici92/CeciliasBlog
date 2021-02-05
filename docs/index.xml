@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Oct 2020 17:15:58 +0100</lastBuildDate><atom:link href="https://Ceici92.github.io/CeciliasBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Transversal Project : StreetAR</title>
+      <link>https://Ceici92.github.io/CeciliasBlog/posts/streetar/</link>
+      <pubDate>Fri, 05 Feb 2021 10:21:02 +0100</pubDate>
+      
+      <guid>https://Ceici92.github.io/CeciliasBlog/posts/streetar/</guid>
+      <description>As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. My colleague and I decided to realize an AR application for a street art in Evry. This fresco was created by children of the �Maison de Quartier� in Evry, students of Telecom Sudparis and the street artist Vince.
+We wanted to make an application in connection with art, and we knew the vast number of frescos in Evry, so we decided to make an AR application that gives life to the one about the environment next to our school.</description>
+    </item>
+    
+    <item>
       <title>MRTK Application</title>
       <link>https://Ceici92.github.io/CeciliasBlog/posts/mrtklab/</link>
       <pubDate>Fri, 29 Jan 2021 19:04:04 +0100</pubDate>
