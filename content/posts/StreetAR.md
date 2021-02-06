@@ -5,22 +5,22 @@ draft: false
 featured_image: "https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/Pack.JPG?raw=true"
 ---
 
-As the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. 
+For the Transversal Project of the master VAR, we had to create an AR or VR application by groups of two. 
 My colleague and I decided to realize an AR application for a street art in Evry.
-This fresco was created by children of the  "Maison de Quartier" in Evry, students of Telecom Sudparis and the street artist Vince.
+This fresco was created by children of the "Maison de Quartier", students of Telecom Sudparis and the street artist Vince.
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/Fresco.jpg?raw=true "Fresco")
 
-We wanted to make an application in connection with art, and we knew the vast number of frescos in Evry, so we decided to make an AR application that gives life to the one about the environment next to our school. 
-We also chose this specific one because we had the artist's contact (Vince). Moreover, the environmental theme is very interesting, even more for kids. 
+We wanted to make an application in connection with art, and we knew the vast number of frescos in Evry. 
+We chose this specific one because we had the artist's contact (Vince), and the environmental theme is very interesting, even more for kids. 
 
-To define our project and how to implement it, we always had to keep in mind that it had to stay easy to use by users non initiated to AR. I would be an app to launch and to be guiding in. 
+To define our project and how to implement it, we had to keep in mind that it must be easy to use by users non initiated to AR.
 
 The goal of this post is to come back on the technical parts of the project.
 
 Here is a summary of the technologies we decided to use : 
 - Blender was needed for meshes, textures and animation.
-- Unity was the core of the project. It is a technology we already know and that enables everything we needed : from UI to animations and building an app.
+- Unity was the core of the project. It is a technology we already knew and that enables everything we needed : from UI to animations and building an app.
 - As SDK we used AR foundation, a unity framework using both AR Core (Google) and AR Kit (Apple) functionalities.
 
 
@@ -177,12 +177,14 @@ https://answers.unity.com/questions/741357/play-two-animation-simultaneously-usi
 
 
 # 5.	Placing objects from image tracking
-When we use the Image Tracking function of AR Foundation, the spawned prefab does not place itself intuitively regarding the position of the recognized image. To solve this we have to follow this :
+
+When we use the Image Tracking Manager of AR Foundation, the spawned prefab does not place itself intuitively regarding the position of the recognized image. 
+To place the prefab correctly we have to follow this steps :
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/ImageTrackingPosition.png?raw=true "")
 
 
-The most important part is to create a representation of the detected image in our prefab (with a size 10 times smaller) rotated at 180° on the Y axis, and place the other objects regarding this. 
+The most important part is to create a representation of the detected image in our prefab (with a size 10 times smaller) rotated at 180° on the Y axis, and place the other objects regarding the image representation. 
 This way you can visualise how the objects will be spawned in real life.
 
 Example :
@@ -219,7 +221,7 @@ For example, if we use the script at the end of the chapter 1 of the scene 8 (8-
 At the beginning of our application, we use Image Tracking, but later we have to use Plane Recognition. To realise this transition we created the EnablePlaneTracking script. 
 This script enables the Plane Tracking Manager of AR Session Origin, along with the TapTt script. Then, the code starts the UIEvents (defined by the user, such as the apparition of 2D UI inviting the user to find a plane) when a plane is detected. When the object is spawned, the Plane Tracking Manager and the TapTo script are disabled again, and the OnceSpawned events are set active (such as the deactivate the 2D UI).
 
-![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/EnablePlanetracking.png?raw=true "")
+![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/EnablePlaneTracking.png?raw=true "")
 
 As you may have guessed this script works with the TapTo script. 
 This script is the one that manages the apparition of the new prefab on the ground. 
@@ -279,12 +281,12 @@ About sound, we learned how central it was in immersive application. Therefore, 
 We synchronised them as much as possible with the characters' movements to be realistic. Sounds are linked to objects and scenes so that they begin exactly with the animations. Moreover, the main lion (Alex) speaks the whole story. 
 Furthermore, adding music seemed a perfect way to keep rhythm in the experience, and to enjoy even more the videos for instance. The introduction music while on the first menu enables the user to find the good volume. 
 
-Finally, a script had to be done in order to deal with an object or scene with more than 1 sound, for instance with 2 comments from Alex, or to manage background sound and dialogues at the same time :
+Finally, a script had to be done in order to deal with an object with more than 1 sound, for instance with 2 comments from Alex, or to manage background sound and dialogues at the same time :
 
 ![alt Text](https://github.com/Ceici92/CeciliasBlog/blob/master/docs/images/StreetAR/TwoAudio.png?raw=true "")
 
 
-At the end, we are happy with our application : we obtained an entertaining application, easy to use, and faithful to the fresco.
+At the end, we are happy with our application : we think that we obtain an entertaining application, tried our best to make it easy to use, while staying faithful to the fresco.
 
 
 
